@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://forgiving-channels-588160.framer.app/sitemap.xml

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "mode": "framer-static-performance",
+  "sourceUrl": "https://forgiving-channels-588160.framer.app",
+  "budgets": {
+    "htmlBytes": 1500000,
+    "estimatedInitialBytes": 6000000,
+    "eagerImages": 24,
+    "modulePreloads": 24
+  },
+  "stats": {
+    "routes": 1,
+    "warnings": 0,
+    "totalHtmlBytes": 551327,
+    "estimatedInitialBytes": 3434666
+  },
+  "locales": [],
+  "routes": [
+    {
+      "routePath": "/",
+      "htmlFile": "index.html",
+      "htmlBytes": 551327,
+      "images": {
+        "total": 35,
+        "lazy": 20,
+        "eager": 15
+      },
+      "modulePreloads": 9,
+      "lcpHints": [],
+      "estimatedInitialBytes": 3434666,
+      "warnings": []
+    }
+  ]
+}

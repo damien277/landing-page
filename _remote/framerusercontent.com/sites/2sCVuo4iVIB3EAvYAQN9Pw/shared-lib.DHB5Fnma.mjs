@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.Dh6celcD.mjs";function t(e,t){return{favicon:`/_remote/framerusercontent.com/assets/MfQj9prh24z3KtJ2w0RN6P3vYo.png`,robots:`max-image-preview:large`,title:`Botanika`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=./shared-lib.DHB5Fnma.mjs.map

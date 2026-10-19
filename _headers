@@ -1,0 +1,15 @@
+/_remote/framerusercontent.com/*
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+/_remote/fonts.gstatic.com/*
+  Cache-Control: public, max-age=31536000, immutable
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# NCE_FRAMER_PERFORMANCE_START
+/_remote/framerusercontent.com/*
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+/_remote/fonts.gstatic.com/*
+  Cache-Control: public, max-age=31536000, immutable
+# NCE_FRAMER_PERFORMANCE_END

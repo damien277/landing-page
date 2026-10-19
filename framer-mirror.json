@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "mode": "framer-self-hosted-mirror",
+  "sourceUrl": "https://forgiving-channels-588160.framer.app/",
+  "primaryOrigin": "https://forgiving-channels-588160.framer.app",
+  "complete": false,
+  "stats": {
+    "routes": 1,
+    "files": 588,
+    "dependencyEdges": 1547,
+    "unresolvedDependencies": 22,
+    "incompleteFiles": 1,
+    "searchIndexes": 2,
+    "missingSearchIndexes": 0,
+    "cmsDetailRoutes": 0,
+    "cmsTemplates": 0,
+    "cmsRouteIssues": 0,
+    "cmsBinaryFiles": 1
+  },
+  "routes": [
+    {
+      "path": "/",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/",
+      "htmlFile": "index.html",
+      "routeId": "AHwWGKaWs",
+      "routePattern": "/",
+      "localeId": "default"
+    }
+  ],
+  "cms": {
+    "complete": true,
+    "detailRoutes": 0,
+    "binaryFiles": 1,
+    "templates": [],
+    "routeIssues": []
+  },
+  "searchIndexes": [
+    {
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-muWZj49nVYHh.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-muWZj49nVYHh.json"
+    },
+    {
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-qWzmhdJVDtKK.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-qWzmhdJVDtKK.json"
+    }
+  ],
+  "unresolvedDependencies": [
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/a3i1ToBatXHw86retpZP4HbO72c.png?scale-down-to=1024&amp;width=1122&amp;height=1402",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/a3i1ToBatXHw86retpZP4HbO72c.png?width=1122&amp;height=1402",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/EgH7gkf5tEj7PqdWjEfAstT8h4Q.png?scale-down-to=1024&amp;width=1603&amp;height=1603",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/EgH7gkf5tEj7PqdWjEfAstT8h4Q.png?scale-down-to=512&amp;width=1603&amp;height=1603",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/EgH7gkf5tEj7PqdWjEfAstT8h4Q.png?width=1603&amp;height=1603",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Hsh1gzdW7jeebdedw9uK0tlm8.png?scale-down-to=1024&amp;width=1036&amp;height=928",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Hsh1gzdW7jeebdedw9uK0tlm8.png?scale-down-to=512&amp;width=1036&amp;height=928",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Hsh1gzdW7jeebdedw9uK0tlm8.png?width=1036&amp;height=928",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/SISGSkjCPtmS6V2h8aWOgR922DM.png?scale-down-to=512&amp;width=662&amp;height=401",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/SISGSkjCPtmS6V2h8aWOgR922DM.png?width=662&amp;height=401",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/tZC6U56sNqcODXpq7gm7WCPOo.png?width=201&amp;height=201",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:index.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    }
+  ],
+  "incompleteFiles": [
+    "index.html"
+  ]
+}

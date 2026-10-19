@@ -1,0 +1,258 @@
+{
+  "version": 3,
+  "mode": "framer-static-pages-self-hosted-runtime-contract",
+  "sourceUrl": "https://forgiving-channels-588160.framer.app/",
+  "runtimeVersion": "1.2.0",
+  "fingerprint": "5d261452",
+  "status": "failed",
+  "passed": false,
+  "runtimeReplayRecommended": true,
+  "stats": {
+    "routes": 1,
+    "capabilities": 9,
+    "contracts": 8,
+    "errors": 3,
+    "warnings": 0,
+    "infos": 1
+  },
+  "capabilities": [
+    {
+      "name": "cms",
+      "detected": true,
+      "evidence": [
+        "_nce/framer-cms-range.js",
+        "_nce/framer-runtime-assets.js",
+        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
+        "_remote/framerusercontent.com/modules/w35x4AfdrI2ql1scStgJ/GUEwYhH0qR3r8dllUz9R/vbJTE7a8s.js",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CJ9C89_L.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CJ9C89_L.mjs.map"
+      ]
+    },
+    {
+      "name": "code-components",
+      "detected": true,
+      "evidence": [
+        "_remote/framerusercontent.com/modules/SNIE2j5H16D6QUS21ulf/GeOI4XxWPdR11TZ1o3Cg/InstancePath.js",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/PAL_xYxzMRds8AXedZhiDHGeWzuu3Z8RoX9jlrOE0Zc.sWR0SoJv.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/PX9hIOIVM.ugvkkED4.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/SitesNotFoundPage.js@1.4.biAf-bU5.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/bV30iRY25.BjM9PCcY.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/iip3MFY7QR7tTpPDg-cKqwmFAMiR32O0bk_nv2ibZQQ.hCTIiVTW.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/iip3MFY7QR7tTpPDg-cKqwmFAMiR32O0bk_nv2ibZQQ.hCTIiVTW.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/tQwSdlpP5hm36muv_1T74-S_7y4c4BCAKF5hck6-pX8.Dz5e40-R.mjs"
+      ]
+    },
+    {
+      "name": "custom-events",
+      "detected": true,
+      "evidence": [
+        "_remote/app.framerstatic.com/chunk-2KR7VCAK.mjs",
+        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CiZycBjq.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CiZycBjq.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/react.iNMCLRE-.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/react.iNMCLRE-.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CJ9C89_L.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CJ9C89_L.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/utils-MaUy.DVZ2M-IX.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/utils-MaUy.DVZ2M-IX.mjs.map"
+      ]
+    },
+    {
+      "name": "dynamic-assets",
+      "detected": true,
+      "evidence": [
+        "_remote/framerusercontent.com/modules/w35x4AfdrI2ql1scStgJ/GUEwYhH0qR3r8dllUz9R/vbJTE7a8s.js",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs.map"
+      ]
+    },
+    {
+      "name": "hash-navigation",
+      "detected": true,
+      "evidence": [
+        "/#003",
+        "/#hero"
+      ]
+    },
+    {
+      "name": "history-navigation",
+      "detected": true,
+      "evidence": [
+        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
+        "_remote/framerusercontent.com/modules/VqTT1aWqxTVufh5I7IAy/Ijm2VoEwvpvRDRKiWx7D/eCaCA10H0.js",
+        "_remote/framerusercontent.com/modules/VqTT1aWqxTVufh5I7IAy/Ijm2VoEwvpvRDRKiWx7D/eCaCA10H0.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map"
+      ]
+    },
+    {
+      "name": "navigation-api",
+      "detected": true,
+      "evidence": [
+        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map"
+      ]
+    },
+    {
+      "name": "storage",
+      "detected": true,
+      "evidence": [
+        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
+        "_remote/framerusercontent.com/modules/ACHEEnZuGbXFdLKAOmf6/MJbcvbjJmtabZUQuRSh3/Smooth_Scroll_New.js",
+        "_remote/framerusercontent.com/modules/ACHEEnZuGbXFdLKAOmf6/MJbcvbjJmtabZUQuRSh3/Smooth_Scroll_New.map",
+        "_remote/framerusercontent.com/modules/p0FTPFTYU03QiOstM9wT/2hAbIg1Eylgw8Ct0zaiB/Loading_1.js",
+        "_remote/framerusercontent.com/modules/tfbCdtsta8FWBcM5FGsL/5sW2UbxxLIipErXlHckb/Loading.js",
+        "_remote/framerusercontent.com/modules/tfbCdtsta8FWBcM5FGsL/5sW2UbxxLIipErXlHckb/Loading.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map"
+      ]
+    },
+    {
+      "name": "webgl",
+      "detected": true,
+      "evidence": [
+        "_remote/app.framerstatic.com/chunk-2KR7VCAK.mjs",
+        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
+        "_remote/framerusercontent.com/modules/FDHIOMci1EhV6YK9dEv1/T8XZzoRv9RZVnrnxvznF/constants.js",
+        "_remote/framerusercontent.com/modules/FF91AN487JJgkF2Ehi7H/6eTsJcixpW9ccB1x8MnP/state.js",
+        "_remote/framerusercontent.com/modules/jjvxWqdBwQX2JuVeKTHt/bAQ2LB9cHSq7ZXlxSpj9/postprocessing.js",
+        "_remote/framerusercontent.com/modules/lDlihTzuNidcfpI2z42X/8kQwXucX9auVs1n7lCpb/deps.js",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CiZycBjq.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/utils-MaUy.DVZ2M-IX.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/utils-MaUy.DVZ2M-IX.mjs.map"
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "id": "asset-closure:0e617329",
+      "kind": "asset-closure",
+      "expected": {
+        "complete": true,
+        "unresolvedDependencies": 0,
+        "incompleteFiles": 0
+      }
+    },
+    {
+      "id": "hosted-telemetry:b6b0a4dd",
+      "kind": "hosted-telemetry",
+      "route": "/",
+      "source": "https://forgiving-channels-588160.framer.app/",
+      "expected": {
+        "eventsFramerScriptAbsent": true,
+        "runtimeRequestsBlockedBeforeHydration": true
+      }
+    },
+    {
+      "id": "route-document:b6b0a4dd",
+      "kind": "route-document",
+      "route": "/",
+      "source": "https://forgiving-channels-588160.framer.app/",
+      "expected": {
+        "htmlFile": "index.html",
+        "directRequestStatus": 200
+      }
+    },
+    {
+      "id": "runtime-preservation:b6b0a4dd",
+      "kind": "runtime-preservation",
+      "route": "/",
+      "source": "https://forgiving-channels-588160.framer.app/",
+      "expected": {
+        "runtimeVersion": "1.2.0",
+        "framerRuntimePreserved": true,
+        "framerRuntimeSelfHosted": true,
+        "compatibilityAdapterAbsent": true,
+        "runtimeAssetBoundary": true,
+        "hostedTelemetryRemoved": true,
+        "publishedChromeSuppressed": true
+      }
+    },
+    {
+      "id": "same-document-hash:7934bb07",
+      "kind": "same-document-hash",
+      "route": "/",
+      "source": "/#003",
+      "expected": {
+        "pathname": "/",
+        "hash": "#003",
+        "documentReload": false
+      }
+    },
+    {
+      "id": "same-document-hash:edd4600e",
+      "kind": "same-document-hash",
+      "route": "/",
+      "source": "/#hero",
+      "expected": {
+        "pathname": "/",
+        "hash": "#hero",
+        "documentReload": false
+      }
+    },
+    {
+      "id": "search-index:633b971b",
+      "kind": "search-index",
+      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-muWZj49nVYHh.json",
+      "expected": {
+        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-muWZj49nVYHh.json",
+        "mirrored": true
+      }
+    },
+    {
+      "id": "search-index:ed59d94f",
+      "kind": "search-index",
+      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-qWzmhdJVDtKK.json",
+      "expected": {
+        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-qWzmhdJVDtKK.json",
+        "mirrored": true
+      }
+    }
+  ],
+  "findings": [
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /.",
+      "route": "/",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-muWZj49nVYHh.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /.",
+      "route": "/",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-qWzmhdJVDtKK.js"
+    },
+    {
+      "severity": "error",
+      "code": "MIRROR_DEPENDENCY_CLOSURE",
+      "message": "Mirror dependency closure is incomplete: 22 unresolved dependencies across 1 files."
+    },
+    {
+      "severity": "info",
+      "code": "RUNTIME_REPLAY_RECOMMENDED",
+      "message": "This site contains interaction capabilities that require origin-vs-mirror browser replay for behavioral certification.",
+      "evidence": "custom-events, webgl"
+    }
+  ]
+}
