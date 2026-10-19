@@ -3,15 +3,15 @@
   "mode": "framer-static-pages-self-hosted-runtime-contract",
   "sourceUrl": "https://forgiving-channels-588160.framer.app/",
   "runtimeVersion": "1.2.0",
-  "fingerprint": "5d261452",
+  "fingerprint": "b131d555",
   "status": "failed",
   "passed": false,
   "runtimeReplayRecommended": true,
   "stats": {
-    "routes": 1,
-    "capabilities": 9,
-    "contracts": 8,
-    "errors": 3,
+    "routes": 7,
+    "capabilities": 10,
+    "contracts": 43,
+    "errors": 25,
     "warnings": 0,
     "infos": 1
   },
@@ -20,33 +20,28 @@
       "name": "cms",
       "detected": true,
       "evidence": [
-        "_nce/framer-cms-range.js",
-        "_nce/framer-runtime-assets.js",
-        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
-        "_remote/framerusercontent.com/modules/w35x4AfdrI2ql1scStgJ/GUEwYhH0qR3r8dllUz9R/vbJTE7a8s.js",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CJ9C89_L.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CJ9C89_L.mjs.map"
+        "_remote/app.framerstatic.com/framer.ZDMCAUHJ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CyzGzbNx.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CyzGzbNx.mjs.map"
       ]
     },
     {
       "name": "code-components",
       "detected": true,
       "evidence": [
-        "_remote/framerusercontent.com/modules/SNIE2j5H16D6QUS21ulf/GeOI4XxWPdR11TZ1o3Cg/InstancePath.js",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/PAL_xYxzMRds8AXedZhiDHGeWzuu3Z8RoX9jlrOE0Zc.sWR0SoJv.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/PX9hIOIVM.ugvkkED4.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/SitesNotFoundPage.js@1.4.biAf-bU5.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/bV30iRY25.BjM9PCcY.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/iip3MFY7QR7tTpPDg-cKqwmFAMiR32O0bk_nv2ibZQQ.hCTIiVTW.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/iip3MFY7QR7tTpPDg-cKqwmFAMiR32O0bk_nv2ibZQQ.hCTIiVTW.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/822aVF58biHwKU2olDbMQhoJEdCnXaPr0ZauJEFA8pU.C6PR7geJ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/J9fqoGh4bO7-5NWLWJLJlkON8a5uuYnfnuvmKkfQDkM.C3dpOo6m.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/PAL_xYxzMRds8AXedZhiDHGeWzuu3Z8RoX9jlrOE0Zc.mur1e3Qz.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/PX9hIOIVM.DFHjdSqb.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/SitesNotFoundPage.js@1.4.CwfcKra6.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/bV30iRY25.CRRBva9g.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/gK9tEEIZhfcq-s1FVdyiautKbhpo5bfGvan_lkwPYbs.Kia-Brqt.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/h7ymgCyxn.CO_9E_gn.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.DHB5Fnma.mjs.map",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/tQwSdlpP5hm36muv_1T74-S_7y4c4BCAKF5hck6-pX8.Dz5e40-R.mjs"
       ]
     },
@@ -55,26 +50,25 @@
       "detected": true,
       "evidence": [
         "_remote/app.framerstatic.com/chunk-2KR7VCAK.mjs",
-        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CiZycBjq.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CiZycBjq.mjs.map",
+        "_remote/app.framerstatic.com/framer.ZDMCAUHJ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/h7ymgCyxn.CO_9E_gn.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/h7ymgCyxn.CO_9E_gn.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.DKPWs7ec.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.DKPWs7ec.mjs.map",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/react.iNMCLRE-.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/react.iNMCLRE-.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CJ9C89_L.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CJ9C89_L.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/utils-MaUy.DVZ2M-IX.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/utils-MaUy.DVZ2M-IX.mjs.map"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CyzGzbNx.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CyzGzbNx.mjs.map"
       ]
     },
     {
-      "name": "dynamic-assets",
+      "name": "forms",
       "detected": true,
       "evidence": [
-        "_remote/framerusercontent.com/modules/w35x4AfdrI2ql1scStgJ/GUEwYhH0qR3r8dllUz9R/vbJTE7a8s.js",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs.map"
+        "/contact",
+        "/vi/contact"
       ]
     },
     {
@@ -82,45 +76,60 @@
       "detected": true,
       "evidence": [
         "/#003",
-        "/#hero"
+        "/#hero",
+        "/vi#003",
+        "/vi#hero"
       ]
     },
     {
       "name": "history-navigation",
       "detected": true,
       "evidence": [
-        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
-        "_remote/framerusercontent.com/modules/VqTT1aWqxTVufh5I7IAy/Ijm2VoEwvpvRDRKiWx7D/eCaCA10H0.js",
-        "_remote/framerusercontent.com/modules/VqTT1aWqxTVufh5I7IAy/Ijm2VoEwvpvRDRKiWx7D/eCaCA10H0.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map"
+        "_remote/app.framerstatic.com/framer.ZDMCAUHJ.mjs",
+        "_remote/framerusercontent.com/modules/VqTT1aWqxTVufh5I7IAy/ph24pd8Z9cL4HXJc9EB1/eCaCA10H0.js",
+        "_remote/framerusercontent.com/modules/VqTT1aWqxTVufh5I7IAy/ph24pd8Z9cL4HXJc9EB1/eCaCA10H0.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/h7ymgCyxn.CO_9E_gn.mjs.map"
+      ]
+    },
+    {
+      "name": "localization",
+      "detected": true,
+      "evidence": [
+        "/:en-US",
+        "/:vi",
+        "/:x-default",
+        "/page-4:en-US",
+        "/page-4:vi",
+        "/page-4:x-default",
+        "/vi/contact:en-US",
+        "/vi/contact:vi",
+        "/vi/contact:x-default",
+        "/vi/page-4:en-US",
+        "/vi/page-4:vi",
+        "/vi/page-4:x-default"
       ]
     },
     {
       "name": "navigation-api",
       "detected": true,
       "evidence": [
-        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map"
+        "_remote/app.framerstatic.com/framer.ZDMCAUHJ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs.map"
       ]
     },
     {
       "name": "storage",
       "detected": true,
       "evidence": [
-        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
+        "_remote/app.framerstatic.com/framer.ZDMCAUHJ.mjs",
         "_remote/framerusercontent.com/modules/ACHEEnZuGbXFdLKAOmf6/MJbcvbjJmtabZUQuRSh3/Smooth_Scroll_New.js",
         "_remote/framerusercontent.com/modules/ACHEEnZuGbXFdLKAOmf6/MJbcvbjJmtabZUQuRSh3/Smooth_Scroll_New.map",
-        "_remote/framerusercontent.com/modules/p0FTPFTYU03QiOstM9wT/2hAbIg1Eylgw8Ct0zaiB/Loading_1.js",
-        "_remote/framerusercontent.com/modules/tfbCdtsta8FWBcM5FGsL/5sW2UbxxLIipErXlHckb/Loading.js",
-        "_remote/framerusercontent.com/modules/tfbCdtsta8FWBcM5FGsL/5sW2UbxxLIipErXlHckb/Loading.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/CV1-iqlMO0px_9GTMxKCvwU6AyUtLsvESu8lP8hqkCU.BjlJjqTD.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/h7ymgCyxn.CO_9E_gn.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/h7ymgCyxn.CO_9E_gn.mjs.map"
       ]
     },
     {
@@ -128,17 +137,17 @@
       "detected": true,
       "evidence": [
         "_remote/app.framerstatic.com/chunk-2KR7VCAK.mjs",
-        "_remote/app.framerstatic.com/framer.PNDT2KP5.mjs",
+        "_remote/app.framerstatic.com/framer.ZDMCAUHJ.mjs",
         "_remote/framerusercontent.com/modules/FDHIOMci1EhV6YK9dEv1/T8XZzoRv9RZVnrnxvznF/constants.js",
         "_remote/framerusercontent.com/modules/FF91AN487JJgkF2Ehi7H/6eTsJcixpW9ccB1x8MnP/state.js",
+        "_remote/framerusercontent.com/modules/WuI5nIsqacV24VRhqan2/2DwC0Dyk3lBYcCyDs1sE/formatAndColor.js",
+        "_remote/framerusercontent.com/modules/iBy4qNf3jFIjh1b03VMq/8A7ZPhEEriQN5kH6mQEl/ThreeJS_Runtime.js",
         "_remote/framerusercontent.com/modules/jjvxWqdBwQX2JuVeKTHt/bAQ2LB9cHSq7ZXlxSpj9/postprocessing.js",
         "_remote/framerusercontent.com/modules/lDlihTzuNidcfpI2z42X/8kQwXucX9auVs1n7lCpb/deps.js",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ENgTyXTnC6jSVGYhPwwqRGhcUM9G3D1ahh_BDaR4Zek.D0CP_iLn.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BViXpHcO.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CiZycBjq.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/utils-MaUy.DVZ2M-IX.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/utils-MaUy.DVZ2M-IX.mjs.map"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.BhT2jht0.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/h7ymgCyxn.CO_9E_gn.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/h7ymgCyxn.CO_9E_gn.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.DKPWs7ec.mjs.map"
       ]
     }
   ],
@@ -153,6 +162,56 @@
       }
     },
     {
+      "id": "hosted-telemetry:21a9991b",
+      "kind": "hosted-telemetry",
+      "route": "/contact",
+      "source": "https://forgiving-channels-588160.framer.app/contact",
+      "expected": {
+        "eventsFramerScriptAbsent": true,
+        "runtimeRequestsBlockedBeforeHydration": true
+      }
+    },
+    {
+      "id": "hosted-telemetry:8178a47a",
+      "kind": "hosted-telemetry",
+      "route": "/vi",
+      "source": "https://forgiving-channels-588160.framer.app/vi/",
+      "expected": {
+        "eventsFramerScriptAbsent": true,
+        "runtimeRequestsBlockedBeforeHydration": true
+      }
+    },
+    {
+      "id": "hosted-telemetry:979ab685",
+      "kind": "hosted-telemetry",
+      "route": "/page-4",
+      "source": "https://forgiving-channels-588160.framer.app/page-4",
+      "expected": {
+        "eventsFramerScriptAbsent": true,
+        "runtimeRequestsBlockedBeforeHydration": true
+      }
+    },
+    {
+      "id": "hosted-telemetry:9f4d0169",
+      "kind": "hosted-telemetry",
+      "route": "/vi/contact",
+      "source": "https://forgiving-channels-588160.framer.app/vi/contact",
+      "expected": {
+        "eventsFramerScriptAbsent": true,
+        "runtimeRequestsBlockedBeforeHydration": true
+      }
+    },
+    {
+      "id": "hosted-telemetry:af477967",
+      "kind": "hosted-telemetry",
+      "route": "/vi/page-4",
+      "source": "https://forgiving-channels-588160.framer.app/vi/page-4",
+      "expected": {
+        "eventsFramerScriptAbsent": true,
+        "runtimeRequestsBlockedBeforeHydration": true
+      }
+    },
+    {
       "id": "hosted-telemetry:b6b0a4dd",
       "kind": "hosted-telemetry",
       "route": "/",
@@ -163,6 +222,250 @@
       }
     },
     {
+      "id": "internal-navigation:0a96c72d",
+      "kind": "internal-navigation",
+      "route": "/404",
+      "source": "/",
+      "expected": {
+        "pathname": "/",
+        "documentNavigation": true
+      }
+    },
+    {
+      "id": "internal-navigation:2c35b8f7",
+      "kind": "internal-navigation",
+      "route": "/vi/contact",
+      "source": "/vi#hero",
+      "expected": {
+        "pathname": "/vi",
+        "documentNavigation": true
+      }
+    },
+    {
+      "id": "internal-navigation:6385aade",
+      "kind": "internal-navigation",
+      "route": "/contact",
+      "source": "/#hero",
+      "expected": {
+        "pathname": "/",
+        "documentNavigation": true
+      }
+    },
+    {
+      "id": "internal-navigation:a2bb2377",
+      "kind": "internal-navigation",
+      "route": "/contact",
+      "source": "/#003",
+      "expected": {
+        "pathname": "/",
+        "documentNavigation": true
+      }
+    },
+    {
+      "id": "internal-navigation:fb1a7800",
+      "kind": "internal-navigation",
+      "route": "/vi/contact",
+      "source": "/vi#003",
+      "expected": {
+        "pathname": "/vi",
+        "documentNavigation": true
+      }
+    },
+    {
+      "id": "locale-url:12f20064",
+      "kind": "locale-url",
+      "route": "/",
+      "source": "./vi/index.html",
+      "expected": {
+        "language": "vi",
+        "targetRoute": "/vi/index.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:13252208",
+      "kind": "locale-url",
+      "route": "/",
+      "source": "./index.html",
+      "expected": {
+        "language": "en-US",
+        "targetRoute": "/index.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:2537d660",
+      "kind": "locale-url",
+      "route": "/page-4",
+      "source": "../page-4.html",
+      "expected": {
+        "language": "en-US",
+        "targetRoute": "/page-4.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:54bac052",
+      "kind": "locale-url",
+      "route": "/contact",
+      "source": "../vi/contact.html",
+      "expected": {
+        "language": "vi",
+        "targetRoute": "/vi/contact.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:600cc697",
+      "kind": "locale-url",
+      "route": "/vi",
+      "source": "../index.html",
+      "expected": {
+        "language": "en-US",
+        "targetRoute": "/index.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:61f6e806",
+      "kind": "locale-url",
+      "route": "/vi/page-4",
+      "source": "../page-4.html",
+      "expected": {
+        "language": "vi",
+        "targetRoute": "/page-4.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:6c92b978",
+      "kind": "locale-url",
+      "route": "/vi/contact",
+      "source": "../contact.html",
+      "expected": {
+        "language": "vi",
+        "targetRoute": "/contact.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:6f5f47ba",
+      "kind": "locale-url",
+      "route": "/contact",
+      "source": "../contact.html",
+      "expected": {
+        "language": "en-US",
+        "targetRoute": "/contact.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:9f9de0ac",
+      "kind": "locale-url",
+      "route": "/page-4",
+      "source": "../vi/page-4.html",
+      "expected": {
+        "language": "vi",
+        "targetRoute": "/vi/page-4.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:aee8b6d3",
+      "kind": "locale-url",
+      "route": "/vi/page-4",
+      "source": "../../page-4.html",
+      "expected": {
+        "language": "en-US",
+        "targetRoute": "/page-4.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:d87fe53b",
+      "kind": "locale-url",
+      "route": "/vi/contact",
+      "source": "../../contact.html",
+      "expected": {
+        "language": "en-US",
+        "targetRoute": "/contact.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "locale-url:f8d9e05b",
+      "kind": "locale-url",
+      "route": "/vi",
+      "source": "./index.html",
+      "expected": {
+        "language": "vi",
+        "targetRoute": "/index.html",
+        "explicitUrlWinsStoredPreference": true,
+        "storageKey": "preferredLocale"
+      }
+    },
+    {
+      "id": "route-document:21a9991b",
+      "kind": "route-document",
+      "route": "/contact",
+      "source": "https://forgiving-channels-588160.framer.app/contact",
+      "expected": {
+        "htmlFile": "contact/index.html",
+        "directRequestStatus": 200
+      }
+    },
+    {
+      "id": "route-document:8178a47a",
+      "kind": "route-document",
+      "route": "/vi",
+      "source": "https://forgiving-channels-588160.framer.app/vi/",
+      "expected": {
+        "htmlFile": "vi/index.html",
+        "directRequestStatus": 200
+      }
+    },
+    {
+      "id": "route-document:979ab685",
+      "kind": "route-document",
+      "route": "/page-4",
+      "source": "https://forgiving-channels-588160.framer.app/page-4",
+      "expected": {
+        "htmlFile": "page-4/index.html",
+        "directRequestStatus": 200
+      }
+    },
+    {
+      "id": "route-document:9f4d0169",
+      "kind": "route-document",
+      "route": "/vi/contact",
+      "source": "https://forgiving-channels-588160.framer.app/vi/contact",
+      "expected": {
+        "htmlFile": "vi/contact/index.html",
+        "directRequestStatus": 200
+      }
+    },
+    {
+      "id": "route-document:af477967",
+      "kind": "route-document",
+      "route": "/vi/page-4",
+      "source": "https://forgiving-channels-588160.framer.app/vi/page-4",
+      "expected": {
+        "htmlFile": "vi/page-4/index.html",
+        "directRequestStatus": 200
+      }
+    },
+    {
       "id": "route-document:b6b0a4dd",
       "kind": "route-document",
       "route": "/",
@@ -170,6 +473,91 @@
       "expected": {
         "htmlFile": "index.html",
         "directRequestStatus": 200
+      }
+    },
+    {
+      "id": "route-document:bf1acb53",
+      "kind": "route-document",
+      "route": "/404",
+      "source": "https://forgiving-channels-588160.framer.app/404",
+      "expected": {
+        "htmlFile": "404.html",
+        "directRequestStatus": 200
+      }
+    },
+    {
+      "id": "runtime-preservation:21a9991b",
+      "kind": "runtime-preservation",
+      "route": "/contact",
+      "source": "https://forgiving-channels-588160.framer.app/contact",
+      "expected": {
+        "runtimeVersion": "1.2.0",
+        "framerRuntimePreserved": true,
+        "framerRuntimeSelfHosted": true,
+        "compatibilityAdapterAbsent": true,
+        "runtimeAssetBoundary": true,
+        "hostedTelemetryRemoved": true,
+        "publishedChromeSuppressed": true
+      }
+    },
+    {
+      "id": "runtime-preservation:8178a47a",
+      "kind": "runtime-preservation",
+      "route": "/vi",
+      "source": "https://forgiving-channels-588160.framer.app/vi/",
+      "expected": {
+        "runtimeVersion": "1.2.0",
+        "framerRuntimePreserved": true,
+        "framerRuntimeSelfHosted": true,
+        "compatibilityAdapterAbsent": true,
+        "runtimeAssetBoundary": true,
+        "hostedTelemetryRemoved": true,
+        "publishedChromeSuppressed": true
+      }
+    },
+    {
+      "id": "runtime-preservation:979ab685",
+      "kind": "runtime-preservation",
+      "route": "/page-4",
+      "source": "https://forgiving-channels-588160.framer.app/page-4",
+      "expected": {
+        "runtimeVersion": "1.2.0",
+        "framerRuntimePreserved": true,
+        "framerRuntimeSelfHosted": true,
+        "compatibilityAdapterAbsent": true,
+        "runtimeAssetBoundary": true,
+        "hostedTelemetryRemoved": true,
+        "publishedChromeSuppressed": true
+      }
+    },
+    {
+      "id": "runtime-preservation:9f4d0169",
+      "kind": "runtime-preservation",
+      "route": "/vi/contact",
+      "source": "https://forgiving-channels-588160.framer.app/vi/contact",
+      "expected": {
+        "runtimeVersion": "1.2.0",
+        "framerRuntimePreserved": true,
+        "framerRuntimeSelfHosted": true,
+        "compatibilityAdapterAbsent": true,
+        "runtimeAssetBoundary": true,
+        "hostedTelemetryRemoved": true,
+        "publishedChromeSuppressed": true
+      }
+    },
+    {
+      "id": "runtime-preservation:af477967",
+      "kind": "runtime-preservation",
+      "route": "/vi/page-4",
+      "source": "https://forgiving-channels-588160.framer.app/vi/page-4",
+      "expected": {
+        "runtimeVersion": "1.2.0",
+        "framerRuntimePreserved": true,
+        "framerRuntimeSelfHosted": true,
+        "compatibilityAdapterAbsent": true,
+        "runtimeAssetBoundary": true,
+        "hostedTelemetryRemoved": true,
+        "publishedChromeSuppressed": true
       }
     },
     {
@@ -185,6 +573,28 @@
         "runtimeAssetBoundary": true,
         "hostedTelemetryRemoved": true,
         "publishedChromeSuppressed": true
+      }
+    },
+    {
+      "id": "same-document-hash:09e806c2",
+      "kind": "same-document-hash",
+      "route": "/vi",
+      "source": "/vi#hero",
+      "expected": {
+        "pathname": "/vi",
+        "hash": "#hero",
+        "documentReload": false
+      }
+    },
+    {
+      "id": "same-document-hash:2d598083",
+      "kind": "same-document-hash",
+      "route": "/vi",
+      "source": "/vi#003",
+      "expected": {
+        "pathname": "/vi",
+        "hash": "#003",
+        "documentReload": false
       }
     },
     {
@@ -210,20 +620,20 @@
       }
     },
     {
-      "id": "search-index:633b971b",
+      "id": "search-index:a0c896fe",
       "kind": "search-index",
-      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-muWZj49nVYHh.json",
+      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-WRlLBs3oagOM.json",
       "expected": {
-        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-muWZj49nVYHh.json",
+        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-WRlLBs3oagOM.json",
         "mirrored": true
       }
     },
     {
-      "id": "search-index:ed59d94f",
+      "id": "search-index:e0df0a69",
       "kind": "search-index",
-      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-qWzmhdJVDtKK.json",
+      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-FPr9euMiC0Rm.json",
       "expected": {
-        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-qWzmhdJVDtKK.json",
+        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-FPr9euMiC0Rm.json",
         "mirrored": true
       }
     }
@@ -234,25 +644,179 @@
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /.",
       "route": "/",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-muWZj49nVYHh.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-FPr9euMiC0Rm.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /.",
       "route": "/",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-qWzmhdJVDtKK.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-WRlLBs3oagOM.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /contact.",
+      "route": "/contact",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-FPr9euMiC0Rm.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /contact.",
+      "route": "/contact",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-WRlLBs3oagOM.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /page-4.",
+      "route": "/page-4",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-FPr9euMiC0Rm.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /page-4.",
+      "route": "/page-4",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-WRlLBs3oagOM.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /vi.",
+      "route": "/vi",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-FPr9euMiC0Rm.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /vi.",
+      "route": "/vi",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-WRlLBs3oagOM.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /vi/contact.",
+      "route": "/vi/contact",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-FPr9euMiC0Rm.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /vi/contact.",
+      "route": "/vi/contact",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-WRlLBs3oagOM.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /vi/page-4.",
+      "route": "/vi/page-4",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-FPr9euMiC0Rm.js"
+    },
+    {
+      "severity": "error",
+      "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
+      "message": "Full-runtime mode left a published Framer entry URL remote on /vi/page-4.",
+      "route": "/vi/page-4",
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-WRlLBs3oagOM.js"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale en-US on / targets uncrawled route /index.html.",
+      "route": "/",
+      "evidence": "./index.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale vi on / targets uncrawled route /vi/index.html.",
+      "route": "/",
+      "evidence": "./vi/index.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale en-US on /contact targets uncrawled route /contact.html.",
+      "route": "/contact",
+      "evidence": "../contact.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale vi on /contact targets uncrawled route /vi/contact.html.",
+      "route": "/contact",
+      "evidence": "../vi/contact.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale en-US on /page-4 targets uncrawled route /page-4.html.",
+      "route": "/page-4",
+      "evidence": "../page-4.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale vi on /page-4 targets uncrawled route /vi/page-4.html.",
+      "route": "/page-4",
+      "evidence": "../vi/page-4.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale en-US on /vi targets uncrawled route /index.html.",
+      "route": "/vi",
+      "evidence": "../index.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale vi on /vi targets uncrawled route /index.html.",
+      "route": "/vi",
+      "evidence": "./index.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale en-US on /vi/contact targets uncrawled route /contact.html.",
+      "route": "/vi/contact",
+      "evidence": "../../contact.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale vi on /vi/contact targets uncrawled route /contact.html.",
+      "route": "/vi/contact",
+      "evidence": "../contact.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale en-US on /vi/page-4 targets uncrawled route /page-4.html.",
+      "route": "/vi/page-4",
+      "evidence": "../../page-4.html"
+    },
+    {
+      "severity": "error",
+      "code": "LOCALE_ROUTE_MISSING",
+      "message": "Locale vi on /vi/page-4 targets uncrawled route /page-4.html.",
+      "route": "/vi/page-4",
+      "evidence": "../page-4.html"
     },
     {
       "severity": "error",
       "code": "MIRROR_DEPENDENCY_CLOSURE",
-      "message": "Mirror dependency closure is incomplete: 22 unresolved dependencies across 1 files."
+      "message": "Mirror dependency closure is incomplete: 72 unresolved dependencies across 4 files."
     },
     {
       "severity": "info",
       "code": "RUNTIME_REPLAY_RECOMMENDED",
       "message": "This site contains interaction capabilities that require origin-vs-mirror browser replay for behavioral certification.",
-      "evidence": "custom-events, webgl"
+      "evidence": "custom-events, forms, webgl"
     }
   ]
 }

@@ -9,25 +9,109 @@
     "modulePreloads": 24
   },
   "stats": {
-    "routes": 1,
+    "routes": 7,
     "warnings": 0,
-    "totalHtmlBytes": 551327,
-    "estimatedInitialBytes": 3434666
+    "totalHtmlBytes": 2125828,
+    "estimatedInitialBytes": 14872440
   },
   "locales": [],
   "routes": [
     {
       "routePath": "/",
       "htmlFile": "index.html",
-      "htmlBytes": 551327,
+      "htmlBytes": 559155,
       "images": {
-        "total": 35,
-        "lazy": 20,
+        "total": 29,
+        "lazy": 14,
         "eager": 15
       },
       "modulePreloads": 9,
       "lcpHints": [],
-      "estimatedInitialBytes": 3434666,
+      "estimatedInitialBytes": 3478948,
+      "warnings": []
+    },
+    {
+      "routePath": "/404/",
+      "htmlFile": "404.html",
+      "htmlBytes": 3598,
+      "images": {
+        "total": 0,
+        "lazy": 0,
+        "eager": 0
+      },
+      "modulePreloads": 0,
+      "lcpHints": [],
+      "estimatedInitialBytes": 97444,
+      "warnings": []
+    },
+    {
+      "routePath": "/vi/page-4/",
+      "htmlFile": "vi/page-4/index.html",
+      "htmlBytes": 207491,
+      "images": {
+        "total": 1,
+        "lazy": 0,
+        "eager": 1
+      },
+      "modulePreloads": 8,
+      "lcpHints": [],
+      "estimatedInitialBytes": 1161030,
+      "warnings": []
+    },
+    {
+      "routePath": "/page-4/",
+      "htmlFile": "page-4/index.html",
+      "htmlBytes": 206642,
+      "images": {
+        "total": 1,
+        "lazy": 0,
+        "eager": 1
+      },
+      "modulePreloads": 8,
+      "lcpHints": [],
+      "estimatedInitialBytes": 1160181,
+      "warnings": []
+    },
+    {
+      "routePath": "/vi/contact/",
+      "htmlFile": "vi/contact/index.html",
+      "htmlBytes": 296854,
+      "images": {
+        "total": 22,
+        "lazy": 8,
+        "eager": 14
+      },
+      "modulePreloads": 8,
+      "lcpHints": [],
+      "estimatedInitialBytes": 2749905,
+      "warnings": []
+    },
+    {
+      "routePath": "/contact/",
+      "htmlFile": "contact/index.html",
+      "htmlBytes": 289433,
+      "images": {
+        "total": 22,
+        "lazy": 8,
+        "eager": 14
+      },
+      "modulePreloads": 8,
+      "lcpHints": [],
+      "estimatedInitialBytes": 2742484,
+      "warnings": []
+    },
+    {
+      "routePath": "/vi/",
+      "htmlFile": "vi/index.html",
+      "htmlBytes": 562655,
+      "images": {
+        "total": 29,
+        "lazy": 14,
+        "eager": 15
+      },
+      "modulePreloads": 9,
+      "lcpHints": [],
+      "estimatedInitialBytes": 3482448,
       "warnings": []
     }
   ]
