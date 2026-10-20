@@ -37,6 +37,7 @@ The timestamp release above is the initial home-only deployment. It has no conta
 - Tests the actual release-switch helper using isolated temporary directories: activation, rollback, no-op, invalid/missing releases and unsafe symlinks.
 - Uploads the pristine GitHub checkout to `/home/botanika/source`, excluding `.git`, `public` and `node_modules`; removes obsolete source files.
 - Builds in a disposable directory because the exporter rewrites SEO in place. Sets `SITE_URL=https://hello.botanika.ai`.
+- Build normalizes path-qualified inline SVG references back to `#id` when the target exists in the same HTML. This runs for every exported route; no manual image re-upload is needed for this export bug. Preserve `scripts/` and `package.json` when importing future exports.
 - Includes all exported HTML routes, `_remote`, `_nce`, root PNG icons, robots and sitemap. Does not serve source docs, workflow/config files or export diagnostic JSON.
 - Publishes a unique release `<commit-sha>-<run-id>-<attempt>` and `release.txt` identifying that release.
 - Uploads the complete artifact before atomically switching the `current` symlink. Retains the former release as `previous`; no NGINX reload is required.

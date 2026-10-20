@@ -1,6 +1,6 @@
 # landing-page
 
-Static Framer export for Botanika. The current snapshot was imported from `botanika (2)` without repairing generated code.
+Static Framer export for Botanika. The current design snapshot was imported from `botanika (2)`; the build repairs localized SVG references.
 
 ## Pages
 
@@ -8,7 +8,15 @@ Home, `/contact`, `/page-4`, Vietnamese equivalents under `/vi`, and a 404 page.
 
 ## Local preview
 
-Run `python3 -m http.server 8000` and open `http://localhost:8000/`. Use `/contact/` for the directory-based contact page with this server.
+Run `npm run build`, then `python3 -m http.server 8000 --directory public` and open `http://localhost:8000/`. Use `/contact/` for the directory-based contact page with this server. Build rewrites exported HTML in place; the deployment pipeline uses a disposable copy.
+
+## Importing a new Framer export
+
+Replace the exported pages/assets, but preserve the maintained `scripts/`, `package.json`, `.github/`, `deploy/` and `docs/`. In particular, keep our build scripts rather than overwriting them with the exporter's generated versions.
+
+`npm run build` automatically restores same-document SVG references such as `url(./index.html#id)` and `<use href="./index.html#id">` to fragment-only references when the target ID exists in the HTML. It runs without `SITE_URL` too, and preserves navigation links and external assets. Missing IDs are left unchanged; references inside CSS blocks are not normalized.
+
+Run `npm test` for the SVG regression checks. After each import, preview the loading flow and technology cards on desktop/mobile before merging and manually deploying.
 
 ## Known limitations of this snapshot
 
