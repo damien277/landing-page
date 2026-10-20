@@ -1,87 +1,80 @@
-# Botanika static staging deployment
+# Botanika staging: manual deploy and rollback
 
-## Active setup
+Website: https://hello.botanika.ai
 
-- URL: https://hello.botanika.ai
-- Server: `13.228.44.134`, SSH alias `botanika`, user `ubuntu`.
-- Managed source snapshot: `/home/botanika/source`.
-- Static releases: `/home/botanika/releases/<release-id>`.
-- NGINX document root: `/home/botanika/current`, a symlink to the active release.
-- Initial release: `20261019T094542Z`.
-- Virtual host: `/etc/nginx/sites-available/hello.botanika.ai`, linked from `sites-enabled`.
-- Local virtual-host source: `deploy/hello.botanika.ai.conf`.
-- TLS: Let's Encrypt certificate `hello.botanika.ai`; renewal uses the existing `certbot.timer` and `/home/botanika/acme` webroot.
-- Scoped NGINX reload hook: `/etc/letsencrypt/renewal-hooks/deploy/hello-botanika`, sourced from `deploy/renew-hello-certificate.sh`.
-- Static files only: no application port, Node service, PM2 or new Docker container required on the server. Build with Node locally.
-- Staging responses send `X-Robots-Tag: noindex, nofollow` and revalidate caches. This does not password-protect the site.
+## Run a deployment
 
-## Content boundary
+1. Open [GitHub Actions → Deploy staging](https://github.com/damien277/landing-page/actions/workflows/deploy-staging.yml).
+2. Select **Run workflow**, branch **main**.
+3. Set **operation = deploy** and leave **release** empty.
+4. Wait for the run to finish. Its summary lists the active release and the previous release.
 
-This deployment is the existing local Framer export, not a new export of the current Framer clone. The local loading-overlay lookup fix is included. The Framer `/contact` Code Component created later is not included in this snapshot; existing Contact links continue to `https://botanika.ai/contact`.
-
-Keep the full source and generated export reports outside the served release. Only website HTML, icons, robots/sitemap, `_nce` and `_remote` were uploaded to the document root. Research docs, deployment configs and export diagnostics are not public.
-
-## Update from a reviewed export
-
-Run from the local project root. Review the new export before replacing source; do not merge generated bundles by hand.
+CLI equivalent:
 
 ```sh
-BUILD_DIR=$(mktemp -d /tmp/botanika-staging.XXXXXX)
-RELEASE=$(date -u +%Y%m%dT%H%M%SZ)
-
-# Build from a disposable copy: the exporter build rewrites SEO in place.
-rsync -a --exclude public --exclude .git --exclude node_modules \
-  --exclude docs --exclude deploy ./ "$BUILD_DIR/"
-(cd "$BUILD_DIR" && SITE_URL=https://hello.botanika.ai npm run build)
-
-# Archive the authored/exported source separately from public files.
-rsync -az --exclude public --exclude .git --exclude node_modules \
-  ./ botanika:/home/botanika/source/
-
-ssh botanika "mkdir -p /home/botanika/releases/$RELEASE"
-rsync -az "$BUILD_DIR/public/index.html" \
-  "$BUILD_DIR/public/robots.txt" "$BUILD_DIR/public/sitemap.xml" \
-  "$BUILD_DIR/public/favicon.png" "$BUILD_DIR/public/apple-touch-icon.png" \
-  "$BUILD_DIR/public/_nce" "$BUILD_DIR/public/_remote" \
-  "botanika:/home/botanika/releases/$RELEASE/"
-
-# Inspect the uploaded release before activation. Add any new route files
-# explicitly above; the current snapshot contains only the home page.
-ssh botanika "test -s /home/botanika/releases/$RELEASE/index.html && \
-  ln -s releases/$RELEASE /home/botanika/current.next && \
-  mv -Tf /home/botanika/current.next /home/botanika/current"
-
-curl -fI https://hello.botanika.ai/
+gh workflow run deploy-staging.yml --repo damien277/landing-page --ref main -f operation=deploy
 ```
 
-Stop if any command fails. The generated build script logs some errors without a failing exit status, so exit code alone is not release certification. Verify required files and the actual browser path. Retain the disposable build until verification finishes, then remove that specific temporary directory.
+This workflow is manual-only. Pushing or merging a new export does not deploy it automatically. Workflow runs on branches other than `main` are skipped. Runs are serialized; an active deployment is not canceled by the next run.
 
-NGINX reload is unnecessary for a document-root symlink switch. If changing the virtual-host configuration, install the reviewed file, run `sudo nginx -t`, then reload NGINX. Do not change the shared `staging-botanika` host file.
+## Roll back
 
-## Rollback
+Run the same workflow with **operation = rollback**:
 
-Keep the previous complete release. Replace `PREVIOUS_RELEASE` with an existing release ID:
+- Leave **release** empty to restore `/home/botanika/previous`.
+- Supply an existing release ID to restore that exact version.
+- A rollback saves the formerly active version as `previous`, so a second blank rollback switches back.
 
 ```sh
-ssh botanika 'test -s /home/botanika/releases/PREVIOUS_RELEASE/index.html && \
-  ln -s releases/PREVIOUS_RELEASE /home/botanika/rollback.next && \
-  mv -Tf /home/botanika/rollback.next /home/botanika/current'
+gh workflow run deploy-staging.yml --repo damien277/landing-page --ref main \
+  -f operation=rollback -f release=20261019T094542Z
 ```
 
-Only the initial release exists after this first deployment; there is no older website release to restore yet. Retained old releases support rollback, but old tabs can still request assets absent from a newer release; validate asset retention when introducing automated multi-release deployment.
+The timestamp release above is the initial home-only deployment. It has no contact routes or `release.txt`; rollback verification intentionally accommodates that legacy snapshot.
 
-## Verification checklist
+## Pipeline behavior
 
-- HTTP redirects to HTTPS; valid certificate for `hello.botanika.ai`.
-- `/` returns HTML; `.mjs` returns `application/javascript`.
-- Large model supports HTTP Range requests (206).
-- Missing routes return 404, not the homepage.
-- Source docs/config are not served.
-- Browser: loading finishes, hero/3D renders, no relevant JS errors or failed HTTP requests.
-- Narrow viewport: no horizontal overflow.
-- After adding a fresh contact export, verify direct `/contact` navigation and its actual API submission separately.
+- Tests the actual release-switch helper using isolated temporary directories: activation, rollback, no-op, invalid/missing releases and unsafe symlinks.
+- Uploads the pristine GitHub checkout to `/home/botanika/source`, excluding `.git`, `public` and `node_modules`; removes obsolete source files.
+- Builds in a disposable directory because the exporter rewrites SEO in place. Sets `SITE_URL=https://hello.botanika.ai`.
+- Includes all exported HTML routes, `_remote`, `_nce`, root PNG icons, robots and sitemap. Does not serve source docs, workflow/config files or export diagnostic JSON.
+- Publishes a unique release `<commit-sha>-<run-id>-<attempt>` and `release.txt` identifying that release.
+- Uploads the complete artifact before atomically switching the `current` symlink. Retains the former release as `previous`; no NGINX reload is required.
+- Verifies HTTPS responses for home, contact, page-4 and Vietnamese equivalents plus the release marker. Rollback verifies home and the marker when one exists.
+- If activation or post-switch HTTP verification fails, attempts to restore the original active release and fails the workflow. Inspect the logs if automatic restoration also fails. Upload/build failures before switching leave the active release untouched.
 
-Certificate renewal simulation:
+These are infrastructure checks, not proof that every animation or form works. The current imported snapshot still has the known loading-overlay regression and FormSpark contact integration; this pipeline does not repair them or submit contact data during deployment.
+
+## Server paths and access
+
+| Purpose | Path / value |
+|---|---|
+| Server | `13.228.44.134` |
+| CI SSH user | `botanika-deploy` — no sudo or Docker access |
+| Latest pipeline source checkout | `/home/botanika/source` |
+| Retained static releases | `/home/botanika/releases/<release-id>` |
+| NGINX document root | `/home/botanika/current` |
+| Previous release | `/home/botanika/previous` |
+| Virtual host | `/etc/nginx/sites-available/hello.botanika.ai` |
+| ACME webroot | `/home/botanika/acme` |
+| Certificate | `/etc/letsencrypt/live/hello.botanika.ai/` |
+
+Rollback switches public files only; `/home/botanika/source` remains the latest workflow checkout, not the source of the restored historical release. GitHub keeps source history. Retained releases are not automatically deleted. Old browser tabs can request assets missing from a new snapshot; validate asset compatibility before deleting old releases or adding long-lived caches.
+
+## Credentials and operations
+
+Repository Actions secrets:
+
+- `STAGING_SSH_KEY`: dedicated private key; never committed.
+- `STAGING_KNOWN_HOSTS`: server ED25519 host key, obtained through the existing verified SSH connection. CI uses strict host checking, not an unverified keyscan.
+
+The matching restricted public key is in `/home/botanika-deploy/.ssh/authorized_keys`. Rotate the private/public pair together. Host key changes require out-of-band verification before replacing the known-hosts secret.
+
+Source/helper: `deploy/staging-release.sh`. Local regression check: `./deploy/test-staging-release.sh`.
+
+NGINX config: `deploy/hello.botanika.ai.conf`. Changes to that file are not automatically installed by this workflow; a server administrator must review/install it, run `sudo nginx -t`, then reload NGINX. Do not modify the shared `staging-botanika` virtual host.
+
+HTTPS renewal uses existing `certbot.timer` and the scoped hook sourced from `deploy/renew-hello-certificate.sh`. Staging responses send `X-Robots-Tag: noindex, nofollow`; this is not password protection.
 
 ```sh
 ssh botanika 'sudo certbot renew --cert-name hello.botanika.ai --dry-run --run-deploy-hooks'

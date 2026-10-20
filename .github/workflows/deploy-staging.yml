@@ -1,0 +1,153 @@
+name: Deploy staging
+
+on:
+  workflow_dispatch:
+    inputs:
+      operation:
+        description: Deploy a new build or roll back to an existing release
+        type: choice
+        options:
+          - deploy
+          - rollback
+        default: deploy
+      release:
+        description: Rollback target release ID (blank restores the previous release)
+        type: string
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: botanika-staging
+  cancel-in-progress: false
+
+jobs:
+  staging:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BOTANIKA_URL: https://hello.botanika.ai
+      RELEASE_ID: ${{ format('{0}-{1}-{2}', github.sha, github.run_id, github.run_attempt) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Release helper self-check
+        run: ./deploy/test-staging-release.sh
+
+      - name: Configure SSH
+        env:
+          STAGING_SSH_KEY: ${{ secrets.STAGING_SSH_KEY }}
+          STAGING_KNOWN_HOSTS: ${{ secrets.STAGING_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          test -n "$STAGING_SSH_KEY"
+          test -n "$STAGING_KNOWN_HOSTS"
+          umask 077
+          mkdir -p ~/.ssh
+          printf '%s\n' "$STAGING_SSH_KEY" > ~/.ssh/botanika_staging
+          printf '%s\n' "$STAGING_KNOWN_HOSTS" > ~/.ssh/botanika_known_hosts
+          cat > ~/.ssh/config <<'EOF'
+          Host botanika-staging
+            HostName 13.228.44.134
+            User botanika-deploy
+            IdentityFile ~/.ssh/botanika_staging
+            IdentitiesOnly yes
+            StrictHostKeyChecking yes
+            UserKnownHostsFile ~/.ssh/botanika_known_hosts
+            BatchMode yes
+            ConnectTimeout 15
+          EOF
+          chmod 600 ~/.ssh/botanika_staging ~/.ssh/botanika_known_hosts ~/.ssh/config
+          ssh botanika-staging true
+
+      - name: Upload source snapshot
+        run: |
+          set -euo pipefail
+          rsync -az --delete --exclude .git --exclude public --exclude node_modules \
+            ./ botanika-staging:/home/botanika/source/
+
+      - name: Deploy or roll back and verify
+        env:
+          SITE_URL: https://hello.botanika.ai
+          OPERATION: ${{ inputs.operation }}
+          REQUESTED_RELEASE: ${{ inputs.release }}
+        run: |
+          set -euo pipefail
+          case "$OPERATION" in deploy|rollback) ;; *) exit 1 ;; esac
+          if [ -n "$REQUESTED_RELEASE" ]; then
+            [[ "$REQUESTED_RELEASE" =~ ^[A-Za-z0-9][A-Za-z0-9._-]*$ ]] || exit 1
+          fi
+
+          if [ "$OPERATION" = deploy ]; then
+            [[ "$RELEASE_ID" =~ ^[0-9a-f]{40}-[0-9]+-[0-9]+$ ]] || exit 1
+            BUILD_DIR="$RUNNER_TEMP/botanika-build"
+            STAGE_DIR="$RUNNER_TEMP/botanika-release"
+            mkdir -p "$BUILD_DIR" "$STAGE_DIR"
+            # The exporter rewrites SEO in place; keep the source checkout pristine.
+            rsync -a --exclude .git --exclude public --exclude node_modules \
+              --exclude docs --exclude deploy ./ "$BUILD_DIR/"
+            (cd "$BUILD_DIR" && npm run build)
+            for page in index.html 404.html contact.html contact/index.html \
+              page-4.html page-4/index.html vi/index.html vi/contact.html \
+              vi/contact/index.html vi/page-4.html vi/page-4/index.html; do
+              test -s "$BUILD_DIR/public/$page"
+            done
+            rsync -a --include='*/' --include='*.html' --include='_remote/***' \
+              --include='_nce/***' --include='/robots.txt' --include='/sitemap.xml' \
+              --include='/*.png' --exclude='*' "$BUILD_DIR/public/" "$STAGE_DIR/"
+            printf '%s\n' "$RELEASE_ID" > "$STAGE_DIR/release.txt"
+            ssh botanika-staging "test ! -e /home/botanika/releases/$RELEASE_ID && mkdir /home/botanika/releases/$RELEASE_ID"
+            rsync -az "$STAGE_DIR/" "botanika-staging:/home/botanika/releases/$RELEASE_ID/"
+          fi
+
+          PRIOR=$(ssh botanika-staging 'basename "$(readlink /home/botanika/current)"')
+          [[ "$PRIOR" =~ ^[A-Za-z0-9][A-Za-z0-9._-]*$ ]] || exit 1
+          restore_on_failure() {
+            status=$?
+            if [ "$status" -ne 0 ]; then
+              echo "::error::Release check failed; restoring $PRIOR"
+              ssh botanika-staging /home/botanika/source/deploy/staging-release.sh activate "$PRIOR" \
+                || echo "::error::Automatic restore failed; inspect the server."
+            fi
+            exit "$status"
+          }
+          trap restore_on_failure EXIT
+          if [ "$OPERATION" = deploy ]; then
+            selected=$(ssh botanika-staging /home/botanika/source/deploy/staging-release.sh activate "$RELEASE_ID")
+            [ "$selected" = "$RELEASE_ID" ]
+            paths=(/ /contact /page-4 /vi /vi/contact /vi/page-4)
+          else
+            args=(rollback)
+            if [ -n "$REQUESTED_RELEASE" ]; then args+=("$REQUESTED_RELEASE"); fi
+            selected=$(ssh botanika-staging /home/botanika/source/deploy/staging-release.sh "${args[@]}")
+            paths=(/)
+          fi
+          [[ "$selected" =~ ^[A-Za-z0-9][A-Za-z0-9._-]*$ ]]
+          for path in "${paths[@]}"; do
+            status=$(curl -sS --proto '=https' --max-time 20 -o /dev/null -w '%{http_code}' "$BOTANIKA_URL$path")
+            [ "$status" = 200 ] || { echo "::error::$path returned $status"; exit 1; }
+          done
+          marker="$RUNNER_TEMP/release-marker"
+          status=$(curl -sS --proto '=https' --max-time 20 -o "$marker" -w '%{http_code}' "$BOTANIKA_URL/release.txt")
+          if [ "$status" = 404 ] && [ "$OPERATION" = rollback ]; then
+            echo "Legacy release without release.txt"
+          else
+            [ "$status" = 200 ] || { echo "::error::release.txt returned $status"; exit 1; }
+            grep -Fxq "$selected" "$marker"
+          fi
+          trap - EXIT
+          {
+            echo "Operation: $OPERATION"
+            echo "Active release: $selected"
+            echo "Previous release: $PRIOR"
+            echo "Website: $BOTANIKA_URL"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
