@@ -124,7 +124,7 @@ jobs:
           if [ "$OPERATION" = deploy ]; then
             selected=$(ssh botanika-staging /home/botanika/source/deploy/staging-release.sh activate "$RELEASE_ID")
             [ "$selected" = "$RELEASE_ID" ]
-            paths=(/ /contact /page-4 /vi /vi/contact /vi/page-4)
+            paths=(/ /contact /page-4 /vi/ /vi/contact /vi/page-4)
           else
             args=(rollback)
             if [ -n "$REQUESTED_RELEASE" ]; then args+=("$REQUESTED_RELEASE"); fi
