@@ -43,7 +43,7 @@ The timestamp release above is the initial home-only deployment. It has no conta
 - Verifies HTTPS responses for home, contact, page-4 and Vietnamese equivalents plus the release marker. Rollback verifies home and the marker when one exists.
 - If activation or post-switch HTTP verification fails, attempts to restore the original active release and fails the workflow. Inspect the logs if automatic restoration also fails. Upload/build failures before switching leave the active release untouched.
 
-These are infrastructure checks, not proof that every animation or form works. The current imported snapshot still has the known loading-overlay regression and FormSpark contact integration; this pipeline does not repair them or submit contact data during deployment.
+These are infrastructure checks, not proof that every animation or form works. Check in a browser that the static boot overlay disappears and the React loading dialog closes after importing an export. The current contact form still uses FormSpark; this pipeline neither changes that integration nor submits contact data during deployment.
 
 ## Server paths and access
 
