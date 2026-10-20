@@ -22,6 +22,7 @@ import { readFileSync, writeFileSync, mkdirSync, cpSync, rmSync } from 'node:fs'
 import { readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
+import { normalizeSvgReferences } from './normalize-svg-references.mjs';
 // Source origin embedded at export time
 const SOURCE_ORIGIN = 'https://forgiving-channels-588160.framer.app';
 
@@ -115,6 +116,18 @@ if (TARGET_ORIGIN && TARGET_ORIGIN !== SOURCE_ORIGIN) {
   if (robotsFixed)  console.log('[SEO] ✓ robots.txt updated');
   console.log(`[SEO] ✓ Canonical URLs finalized → ${TARGET_ORIGIN}`);
 }
+
+// Normalize every export even when no deployment origin is configured.
+let svgCount = 0;
+walkFiles('.', (filePath, name) => {
+  if (!name.toLowerCase().endsWith('.html')) return;
+  const original = readFileSync(filePath, 'utf8');
+  const normalized = normalizeSvgReferences(original);
+  if (normalized === original) return;
+  writeFileSync(filePath, normalized, 'utf8');
+  svgCount++;
+});
+console.log(`[SVG] Normalized internal references in ${svgCount} HTML file(s)`);
 
 // ── Copy deployable files to public/ (Vercel/Netlify output directory) ──
 rmSync('public', { recursive: true, force: true });

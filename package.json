@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "node scripts/finalize-seo-origin.mjs"
+    "build": "node scripts/finalize-seo-origin.mjs",
+    "test": "node --test scripts/*.test.mjs"
   }
 }
