@@ -16,6 +16,8 @@ Replace the exported pages/assets, but preserve the maintained `scripts/`, `pack
 
 `npm run build` automatically restores same-document SVG references such as `url(./index.html#id)` and `<use href="./index.html#id">` to fragment-only references when the target ID exists in the HTML. It runs without `SITE_URL` too, and preserves navigation links and external assets. Missing IDs are left unchanged; references inside CSS blocks are not normalized.
 
+Build also ensures every HTML output has the exporter's existing badge/editor-bar suppression CSS, without duplicating it. This keeps flat routes (`/contact`, served as `contact.html` by NGINX) consistent with directory routes (`/contact/`). For Python's local server, compare `/contact.html` and `/contact/`.
+
 Run `npm test` for the SVG regression checks. After each import, preview the loading flow and technology cards on desktop/mobile before merging and manually deploying.
 
 ## Known limitations of this snapshot

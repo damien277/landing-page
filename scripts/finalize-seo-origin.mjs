@@ -118,16 +118,24 @@ if (TARGET_ORIGIN && TARGET_ORIGIN !== SOURCE_ORIGIN) {
 }
 
 // Normalize every export even when no deployment origin is configured.
-let svgCount = 0;
+const BUILDER_CHROME_STYLE = '<style data-nce-static-builder-chrome>#__framer-badge-container,.__framer-badge,[data-framer-editorbar],[data-framer-editor-bar],#__framer-editorbar,#__framer-editor-bar{display:none!important;visibility:hidden!important;pointer-events:none!important}</style>';
+let svgCount = 0, chromeCount = 0;
 walkFiles('.', (filePath, name) => {
   if (!name.toLowerCase().endsWith('.html')) return;
   const original = readFileSync(filePath, 'utf8');
-  const normalized = normalizeSvgReferences(original);
+  let normalized = normalizeSvgReferences(original);
+  if (normalized !== original) svgCount++;
+  if (!/<style\b[^>]*\bdata-nce-static-builder-chrome\b/i.test(normalized)) {
+    const headEnd = /<\/head\s*>|<body\b[^>]*>/i;
+    if (!headEnd.test(normalized)) throw new Error(`Missing HTML head/body boundary in ${filePath}`);
+    normalized = normalized.replace(headEnd, `${BUILDER_CHROME_STYLE}\n$&`);
+    chromeCount++;
+  }
   if (normalized === original) return;
   writeFileSync(filePath, normalized, 'utf8');
-  svgCount++;
 });
 console.log(`[SVG] Normalized internal references in ${svgCount} HTML file(s)`);
+console.log(`[Chrome] Added builder badge/editor-bar suppression to ${chromeCount} HTML file(s)`);
 
 // ── Copy deployable files to public/ (Vercel/Netlify output directory) ──
 rmSync('public', { recursive: true, force: true });
