@@ -123,7 +123,7 @@ let svgCount = 0, chromeCount = 0;
 walkFiles('.', (filePath, name) => {
   if (!name.toLowerCase().endsWith('.html')) return;
   const original = readFileSync(filePath, 'utf8');
-  let normalized = normalizeSvgReferences(original);
+  let normalized = normalizeSvgReferences(original).replace('var root=document.currentScript.previousElementSibling;', 'var root=document.getElementById("botanika-loading-boot");');
   if (normalized !== original) svgCount++;
   if (!/<style\b[^>]*\bdata-nce-static-builder-chrome\b/i.test(normalized)) {
     const headEnd = /<\/head\s*>|<body\b[^>]*>/i;

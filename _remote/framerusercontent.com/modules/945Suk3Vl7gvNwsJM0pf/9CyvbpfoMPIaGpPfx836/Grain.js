@@ -1,0 +1,10 @@
+import{jsx as _jsx}from"react/jsx-runtime";import{addPropertyControls,ControlType,RenderTarget,motion}from"framer";import{steps}from"@motionone/easing";/**
+ * @framerDisableUnlink
+ *
+ * @framerIntrinsicWidth 300
+ * @framerIntrinsicHeight 300
+ * @framerSupportedLayoutWidth fixed
+ * @framerSupportedLayoutHeight fixed
+ */export default function Grain({animate,animationSpeed,opacity,grainSize,style}){const isCanvas=RenderTarget.current()===RenderTarget.canvas;const keyframesX=["0%","-5%","-15%","7%","-5%","-15%","15%","0%","3%","-10%"];const keyframesY=["0%","-10%","5%","-25%","25%","10%","0%","15%","35%","10%"];const containerStyle={background:`url('/_remote/framerusercontent.com/images/rR6HYXBrMmX4cRpXfXUOvpvpB0.png')`,backgroundSize:`${grainSize}px ${grainSize}px`,backgroundRepeat:"repeat",position:"absolute",inset:isCanvas?0:"-200%",width:isCanvas?"100%":"400%",height:isCanvas?"100%":"400%",opacity};return /*#__PURE__*/_jsx("div",{style:{width:"100%",height:"100%",position:"relative",overflow:"hidden",...style},children:/*#__PURE__*/_jsx(motion.div,{style:containerStyle,animate:!isCanvas&&animate?{x:keyframesX,y:keyframesY}:undefined,transition:{ease:steps(10,"start"),repeat:Infinity,duration:8/animationSpeed}})});}Grain.defaultProps={animate:true,animationSpeed:1,opacity:.25,grainSize:250};addPropertyControls(Grain,{animate:{title:"Animate",type:ControlType.Boolean,defaultValue:true},animationSpeed:{title:"Speed",type:ControlType.Number,min:.1,max:3,step:.1,defaultValue:1,displayStepper:true,hidden:props=>!props.animate},opacity:{title:"Opacity",type:ControlType.Number,step:.01,displayStepper:true,max:1,min:0,defaultValue:.25},grainSize:{title:"Size",type:ControlType.Number,min:50,max:550,step:10,defaultValue:250,unit:"px"}});
+export const __FramerMetadata__ = {"exports":{"default":{"type":"reactComponent","name":"Grain","slots":[],"annotations":{"framerIntrinsicWidth":"300","framerSupportedLayoutWidth":"fixed","framerSupportedLayoutHeight":"fixed","framerDisableUnlink":"*","framerIntrinsicHeight":"300","framerContractVersion":"1"}},"__FramerMetadata__":{"type":"variable"}}}
+//# sourceMappingURL=./Grain.map

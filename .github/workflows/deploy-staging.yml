@@ -96,10 +96,13 @@ jobs:
             rsync -a --exclude .git --exclude public --exclude node_modules \
               --exclude docs --exclude deploy ./ "$BUILD_DIR/"
             (cd "$BUILD_DIR" && npm run build)
-            for page in index.html 404.html contact.html contact/index.html \
-              page-4.html page-4/index.html vi/index.html vi/contact.html \
-              vi/contact/index.html vi/page-4.html vi/page-4/index.html; do
-              test -s "$BUILD_DIR/public/$page"
+            test -s "$BUILD_DIR/public/404.html"
+            for locale in "" "vi/"; do
+              test -s "$BUILD_DIR/public/${locale}index.html"
+              for page in contact bonsai hoasen nimbus nura research; do
+                test -s "$BUILD_DIR/public/${locale}${page}.html"
+                test -s "$BUILD_DIR/public/${locale}${page}/index.html"
+              done
             done
             rsync -a --include='*/' --include='*.html' --include='_remote/***' \
               --include='_nce/***' --include='/robots.txt' --include='/sitemap.xml' \
@@ -124,7 +127,12 @@ jobs:
           if [ "$OPERATION" = deploy ]; then
             selected=$(ssh botanika-staging /home/botanika/source/deploy/staging-release.sh activate "$RELEASE_ID")
             [ "$selected" = "$RELEASE_ID" ]
-            paths=(/ /contact /page-4 /vi/ /vi/contact /vi/page-4)
+            paths=(/ /vi/)
+            for locale in "" "/vi"; do
+              for page in contact bonsai hoasen nimbus nura research; do
+                paths+=("$locale/$page")
+              done
+            done
           else
             args=(rollback)
             if [ -n "$REQUESTED_RELEASE" ]; then args+=("$REQUESTED_RELEASE"); fi

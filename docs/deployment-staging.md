@@ -42,7 +42,7 @@ The timestamp release above is the initial home-only deployment. It has no conta
 - Includes all exported HTML routes, `_remote`, `_nce`, root PNG icons, robots and sitemap. Does not serve source docs, workflow/config files or export diagnostic JSON.
 - Publishes a unique release `<commit-sha>-<run-id>-<attempt>` and `release.txt` identifying that release.
 - Uploads the complete artifact before atomically switching the `current` symlink. Retains the former release as `previous`; no NGINX reload is required.
-- Verifies HTTPS responses for home, contact, page-4 and Vietnamese equivalents plus the release marker. Rollback verifies home and the marker when one exists.
+- Verifies HTTPS responses for home, contact, bonsai, hoasen, nimbus, nura, research and Vietnamese equivalents plus the release marker. Rollback verifies home and the marker when one exists.
 - If activation or post-switch HTTP verification fails, attempts to restore the original active release and fails the workflow. Inspect the logs if automatic restoration also fails. Upload/build failures before switching leave the active release untouched.
 
 These are infrastructure checks, not proof that every animation or form works. Check in a browser that the static boot overlay disappears and the React loading dialog closes after importing an export. The current contact form still uses FormSpark; this pipeline neither changes that integration nor submits contact data during deployment.

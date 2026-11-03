@@ -1,10 +1,10 @@
 # landing-page
 
-Static Framer export for Botanika. The current design snapshot was imported from `botanika (2)`; the build repairs localized SVG references.
+Static Framer export for Botanika. The current design snapshot was imported from `botanika fulll`; the build repairs localized SVG references and the static loading overlay target.
 
 ## Pages
 
-Home, `/contact`, `/page-4`, Vietnamese equivalents under `/vi`, and a 404 page.
+Home, `/contact`, `/bonsai`, `/hoasen`, `/nimbus`, `/nura`, `/research`, Vietnamese equivalents under `/vi`, and a 404 page. The full export replaces the former `/page-4` route.
 
 ## Local preview
 
@@ -22,9 +22,9 @@ Run `npm test` for the SVG regression checks. After each import, preview the loa
 
 ## Known limitations of this snapshot
 
-- The boot overlay targets its explicit element ID. A fresh Framer export can overwrite this fix; check loading after each import.
+- Build restores the boot overlay's explicit element ID after each import. Still check both static and React loading overlays in a browser.
 - Contact uses FormSpark, not Botanika's `createContact` API. Contact links on the home page still point to the existing Botanika website.
-- Export certification reports failure. Some locale warnings reference files that exist; the complete report is not an independently verified runtime verdict.
+- Export certification reports failure (57 errors). Runtime smoke checks cover the bilingual page routes, desktop home loading, and mobile Nimbus rendering; the report is not an independently verified runtime verdict.
 - Importing or merging a snapshot does not deploy it. Use the manual [Deploy staging workflow](https://github.com/damien277/landing-page/actions/workflows/deploy-staging.yml) on `main`; see [deployment and rollback instructions](docs/deployment-staging.md).
 
 Deployment configuration in `deploy/` and documentation in `docs/` are maintained separately from generated website files.

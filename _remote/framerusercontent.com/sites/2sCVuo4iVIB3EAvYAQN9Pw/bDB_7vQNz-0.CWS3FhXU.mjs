@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.7KfmP6A5.mjs";var t,n;function r(){return(r=e((()=>{t=`Trang chủ`,n={exports:{v0:{type:`variable`,annotations:{framerContractVersion:`1`}},__FramerMetadata__:{type:`variable`}}}})))()}r();export{n as __FramerMetadata__,t as v0};
+//# sourceMappingURL=./bDB_7vQNz-0.CWS3FhXU.mjs.map
