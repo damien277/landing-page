@@ -3,14 +3,14 @@
   "mode": "framer-static-pages-self-hosted-runtime-contract",
   "sourceUrl": "https://forgiving-channels-588160.framer.app/",
   "runtimeVersion": "1.2.0",
-  "fingerprint": "d609c1cc",
+  "fingerprint": "d0822481",
   "status": "failed",
   "passed": false,
   "runtimeReplayRecommended": true,
   "stats": {
-    "routes": 15,
+    "routes": 14,
     "capabilities": 10,
-    "contracts": 75,
+    "contracts": 73,
     "errors": 57,
     "warnings": 0,
     "infos": 1
@@ -20,54 +20,54 @@
       "name": "cms",
       "detected": true,
       "evidence": [
+        "_remote/app.framerstatic.com/framer.B1b760uK.mjs",
         "_remote/framerusercontent.com/modules/1XxfngxbkCo5TUq8B0dt/WrRIdsEbIAopCEoAZpOf/OoBf2NsCv.js",
         "_remote/framerusercontent.com/modules/8LdEGRrg0DPlSyrQXpB7/FIMZt0wiD0sMHIcVorU4/w6uYEJaCa.js",
-        "_remote/framerusercontent.com/modules/L7UKxx6ncUcpot9iqgO8/ceGDNeS7LUg2g6FDMrxK/INKRdG7Hc.js",
         "_remote/framerusercontent.com/modules/zIkbYqeIf1YY4pzY7rjk/rbUxw21YxqcNgD2Ow01w/iC1cqVVp8.js",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/A8Yo_omTkdesbbSAvOQXxG9uj9bdOwx_yLt4PnNHNB4.P7EsUzk3.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.OH0T19_K.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.OH0T19_K.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ZIHAhvasZfNSXG4TTQ52p7T5c3SzVmXR5vagfcEj7tw.CsXEcLBZ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.C9C-IViQ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.C9C-IViQ.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/cIReYlS8n6pcyfotATf19PJXq4G7nkfNjbfSLPq-S6E.DVYcAY-3.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.COgU4fSR.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.COgU4fSR.mjs.map"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/nfmTUD5TzKLsYELGbAa4yYQk2xgwhmNdD5DoJYuU0iA.UbfR0jew.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CVpPmdBx.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CVpPmdBx.mjs.map"
       ]
     },
     {
       "name": "code-components",
       "detected": true,
       "evidence": [
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/N5LIxGtx0.fJab6d7-.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/OvbbREBQJ.CuywxJdy.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/RrhGuipu9.DS70Oezh.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.Crsv5g6h.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.OH0T19_K.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ZIHAhvasZfNSXG4TTQ52p7T5c3SzVmXR5vagfcEj7tw.CsXEcLBZ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/N5LIxGtx0.D71xTmes.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/OvbbREBQJ.BcQrhRXG.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/RrhGuipu9.CFsBh3vI.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.C9C-IViQ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.CWbweuIN.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/cIReYlS8n6pcyfotATf19PJXq4G7nkfNjbfSLPq-S6E.DVYcAY-3.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/pi__nEFYm.CL4zSzYN.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.CKWRjgMb.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/tUAJVtCN7lGSeHd8vOBISuIoG83BBSBbJwib3pgvAuQ.CvPLaSaL.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/xUMp0n7CCyrOe8Tx0KmFcpeZmuRHXEzb4RJ1uzv-z84.mzDMPF84.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/zWmYxJDq8.DNSujv5z.mjs"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/pi__nEFYm.CvnV3aKq.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/rui8DIFjsYIoYTG1IflVo6lt_OKuvNVweIp5bV6S8Ng.BEgZyO0V.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.Bt2sVUhz.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/tUAJVtCN7lGSeHd8vOBISuIoG83BBSBbJwib3pgvAuQ.Cb91btby.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/wn5oACi1xzrpNfldzKnB9TdgdKZdO5lCvlIF0lr4MSM.Bmo1jwnP.mjs"
       ]
     },
     {
       "name": "custom-events",
       "detected": true,
       "evidence": [
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/0Tqlne1vfItlQuuk6XWgc-u5lcIaLD3fX7Hi7c4exv8.B4erfX6n.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/A8Yo_omTkdesbbSAvOQXxG9uj9bdOwx_yLt4PnNHNB4.P7EsUzk3.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ThreeJS_Runtime.ClSTxEnI.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ZIHAhvasZfNSXG4TTQ52p7T5c3SzVmXR5vagfcEj7tw.CsXEcLBZ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ThreeJS_Runtime.O38EB49b.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/cIReYlS8n6pcyfotATf19PJXq4G7nkfNjbfSLPq-S6E.DVYcAY-3.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs.map",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CAS_8pR1.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CAS_8pR1.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/nfmTUD5TzKLsYELGbAa4yYQk2xgwhmNdD5DoJYuU0iA.UbfR0jew.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/react.CrJwuYTF.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/react.CrJwuYTF.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.COgU4fSR.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.CKWRjgMb.mjs"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/rui8DIFjsYIoYTG1IflVo6lt_OKuvNVweIp5bV6S8Ng.BEgZyO0V.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/script_main.CVpPmdBx.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.Bt2sVUhz.mjs"
       ]
     },
     {
@@ -78,12 +78,12 @@
         "_remote/framerusercontent.com/modules/8LdEGRrg0DPlSyrQXpB7/FIMZt0wiD0sMHIcVorU4/w6uYEJaCa.js",
         "_remote/framerusercontent.com/modules/L7UKxx6ncUcpot9iqgO8/ceGDNeS7LUg2g6FDMrxK/INKRdG7Hc.js",
         "_remote/framerusercontent.com/modules/zIkbYqeIf1YY4pzY7rjk/rbUxw21YxqcNgD2Ow01w/iC1cqVVp8.js",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/A8Yo_omTkdesbbSAvOQXxG9uj9bdOwx_yLt4PnNHNB4.P7EsUzk3.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/A8Yo_omTkdesbbSAvOQXxG9uj9bdOwx_yLt4PnNHNB4.P7EsUzk3.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.OH0T19_K.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.OH0T19_K.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ZIHAhvasZfNSXG4TTQ52p7T5c3SzVmXR5vagfcEj7tw.CsXEcLBZ.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ZIHAhvasZfNSXG4TTQ52p7T5c3SzVmXR5vagfcEj7tw.CsXEcLBZ.mjs.map"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.C9C-IViQ.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.C9C-IViQ.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/cIReYlS8n6pcyfotATf19PJXq4G7nkfNjbfSLPq-S6E.DVYcAY-3.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/cIReYlS8n6pcyfotATf19PJXq4G7nkfNjbfSLPq-S6E.DVYcAY-3.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/nfmTUD5TzKLsYELGbAa4yYQk2xgwhmNdD5DoJYuU0iA.UbfR0jew.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/nfmTUD5TzKLsYELGbAa4yYQk2xgwhmNdD5DoJYuU0iA.UbfR0jew.mjs.map"
       ]
     },
     {
@@ -100,12 +100,9 @@
       "evidence": [
         "_remote/app.framerstatic.com/framer.B1b760uK.mjs",
         "_remote/framerusercontent.com/modules/SUmhl0VlYqZapN8MXcxd/nXIE8UqTNLMoTwGRD0Ed/S8B0b4zaK.js",
-        "_remote/framerusercontent.com/modules/VqTT1aWqxTVufh5I7IAy/faGN55EnbyVDTrh4NN1w/eCaCA10H0.js",
-        "_remote/framerusercontent.com/modules/VqTT1aWqxTVufh5I7IAy/faGN55EnbyVDTrh4NN1w/eCaCA10H0.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.OH0T19_K.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/S8B0b4zaK.C9C-IViQ.mjs.map",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.CKWRjgMb.mjs.map"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs.map"
       ]
     },
     {
@@ -139,34 +136,34 @@
       "detected": true,
       "evidence": [
         "_remote/app.framerstatic.com/framer.B1b760uK.mjs",
-        "_remote/framerusercontent.com/modules/0yNjRUYYDINkMBe4bfZ6/IZeE20WAyOAMErwwpalF/BotanikaLanguagePicker.js",
-        "_remote/framerusercontent.com/modules/0yNjRUYYDINkMBe4bfZ6/IZeE20WAyOAMErwwpalF/BotanikaLanguagePicker.map",
+        "_remote/framerusercontent.com/modules/0yNjRUYYDINkMBe4bfZ6/tghkywaiV75RkjV7AWAx/BotanikaLanguagePicker.js",
+        "_remote/framerusercontent.com/modules/0yNjRUYYDINkMBe4bfZ6/tghkywaiV75RkjV7AWAx/BotanikaLanguagePicker.map",
         "_remote/framerusercontent.com/modules/ACHEEnZuGbXFdLKAOmf6/MJbcvbjJmtabZUQuRSh3/Smooth_Scroll_New.js",
         "_remote/framerusercontent.com/modules/ACHEEnZuGbXFdLKAOmf6/MJbcvbjJmtabZUQuRSh3/Smooth_Scroll_New.map",
-        "_remote/framerusercontent.com/modules/s8VTbMRvzbqWLvn2VRj9/8lcmcWwcBrlY7j7x0Is4/BotanikaInlineLanguage.js",
-        "_remote/framerusercontent.com/modules/s8VTbMRvzbqWLvn2VRj9/8lcmcWwcBrlY7j7x0Is4/BotanikaInlineLanguage.map",
+        "_remote/framerusercontent.com/modules/s8VTbMRvzbqWLvn2VRj9/TFRhMiRIe56O3i2rNaVA/BotanikaInlineLanguage.js",
+        "_remote/framerusercontent.com/modules/s8VTbMRvzbqWLvn2VRj9/TFRhMiRIe56O3i2rNaVA/BotanikaInlineLanguage.map",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.CKWRjgMb.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.CKWRjgMb.mjs.map"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.Bt2sVUhz.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.Bt2sVUhz.mjs.map"
       ]
     },
     {
       "name": "webgl",
       "detected": true,
       "evidence": [
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/0Tqlne1vfItlQuuk6XWgc-u5lcIaLD3fX7Hi7c4exv8.B4erfX6n.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/0Tqlne1vfItlQuuk6XWgc-u5lcIaLD3fX7Hi7c4exv8.B4erfX6n.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/A8Yo_omTkdesbbSAvOQXxG9uj9bdOwx_yLt4PnNHNB4.P7EsUzk3.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/OutputPass.js_deps_three@0.183.B5K5EuDk.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ThreeJS_Runtime.ClSTxEnI.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ThreeJS_Runtime.uAgNQmHB.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ZIHAhvasZfNSXG4TTQ52p7T5c3SzVmXR5vagfcEj7tw.CsXEcLBZ.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ZIHAhvasZfNSXG4TTQ52p7T5c3SzVmXR5vagfcEj7tw.CsXEcLBZ.mjs.map",
+        "_remote/app.framerstatic.com/chunk.C4BJMiCP.mjs",
+        "_remote/app.framerstatic.com/framer.B1b760uK.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/OutputPass.js_deps_three@0.183.B1_6rUBU.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ThreeJS_Runtime.Bno2Qg6S.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/ThreeJS_Runtime.O38EB49b.mjs.map",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/cIReYlS8n6pcyfotATf19PJXq4G7nkfNjbfSLPq-S6E.DVYcAY-3.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/cIReYlS8n6pcyfotATf19PJXq4G7nkfNjbfSLPq-S6E.DVYcAY-3.mjs.map",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/framer.buqw71vE.mjs.map",
         "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/motion.CAS_8pR1.mjs.map",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.CKWRjgMb.mjs",
-        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.CKWRjgMb.mjs.map"
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/rui8DIFjsYIoYTG1IflVo6lt_OKuvNVweIp5bV6S8Ng.BEgZyO0V.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.Bt2sVUhz.mjs",
+        "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/shared-lib.Bt2sVUhz.mjs.map"
       ]
     }
   ],
@@ -318,16 +315,6 @@
       "expected": {
         "eventsFramerScriptAbsent": true,
         "runtimeRequestsBlockedBeforeHydration": true
-      }
-    },
-    {
-      "id": "internal-navigation:0a96c72d",
-      "kind": "internal-navigation",
-      "route": "/404",
-      "source": "/",
-      "expected": {
-        "pathname": "/",
-        "documentNavigation": true
       }
     },
     {
@@ -757,16 +744,6 @@
       }
     },
     {
-      "id": "route-document:bf1acb53",
-      "kind": "route-document",
-      "route": "/404",
-      "source": "https://forgiving-channels-588160.framer.app/404",
-      "expected": {
-        "htmlFile": "404.html",
-        "directRequestStatus": 200
-      }
-    },
-    {
       "id": "route-document:ce6145a9",
       "kind": "route-document",
       "route": "/bonsai",
@@ -1027,20 +1004,20 @@
       }
     },
     {
-      "id": "search-index:7c3665f8",
+      "id": "search-index:7cfc2044",
       "kind": "search-index",
-      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.json",
+      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.json",
       "expected": {
-        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.json",
+        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.json",
         "mirrored": true
       }
     },
     {
-      "id": "search-index:b09b2717",
+      "id": "search-index:dc07d9bb",
       "kind": "search-index",
-      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.json",
+      "source": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.json",
       "expected": {
-        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.json",
+        "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.json",
         "mirrored": true
       }
     }
@@ -1051,196 +1028,196 @@
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /.",
       "route": "/",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /.",
       "route": "/",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /bonsai.",
       "route": "/bonsai",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /bonsai.",
       "route": "/bonsai",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /contact.",
       "route": "/contact",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /contact.",
       "route": "/contact",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /hoasen.",
       "route": "/hoasen",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /hoasen.",
       "route": "/hoasen",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /nimbus.",
       "route": "/nimbus",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /nimbus.",
       "route": "/nimbus",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /nura.",
       "route": "/nura",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /nura.",
       "route": "/nura",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /research.",
       "route": "/research",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /research.",
       "route": "/research",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi.",
       "route": "/vi",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi.",
       "route": "/vi",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/bonsai.",
       "route": "/vi/bonsai",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/bonsai.",
       "route": "/vi/bonsai",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/contact.",
       "route": "/vi/contact",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/contact.",
       "route": "/vi/contact",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/hoasen.",
       "route": "/vi/hoasen",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/hoasen.",
       "route": "/vi/hoasen",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/nimbus.",
       "route": "/vi/nimbus",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/nimbus.",
       "route": "/vi/nimbus",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/nura.",
       "route": "/vi/nura",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/nura.",
       "route": "/vi/nura",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/research.",
       "route": "/vi/research",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.js"
     },
     {
       "severity": "error",
       "code": "FRAMER_RUNTIME_NOT_LOCALIZED",
       "message": "Full-runtime mode left a published Framer entry URL remote on /vi/research.",
       "route": "/vi/research",
-      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.js"
+      "evidence": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.js"
     },
     {
       "severity": "error",
@@ -1441,7 +1418,7 @@
     {
       "severity": "error",
       "code": "MIRROR_DEPENDENCY_CLOSURE",
-      "message": "Mirror dependency closure is incomplete: 372 unresolved dependencies across 14 files."
+      "message": "Mirror dependency closure is incomplete: 368 unresolved dependencies across 14 files."
     },
     {
       "severity": "info",

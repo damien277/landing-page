@@ -5,10 +5,10 @@
   "primaryOrigin": "https://forgiving-channels-588160.framer.app",
   "complete": false,
   "stats": {
-    "routes": 15,
-    "files": 806,
-    "dependencyEdges": 10470,
-    "unresolvedDependencies": 372,
+    "routes": 14,
+    "files": 802,
+    "dependencyEdges": 10457,
+    "unresolvedDependencies": 368,
     "incompleteFiles": 14,
     "searchIndexes": 2,
     "missingSearchIndexes": 0,
@@ -24,12 +24,6 @@
       "htmlFile": "index.html",
       "routeId": "OvbbREBQJ",
       "routePattern": "/",
-      "localeId": "default"
-    },
-    {
-      "path": "/404",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/404",
-      "htmlFile": "404.html",
       "localeId": "default"
     },
     {
@@ -81,43 +75,11 @@
       "localeId": "default"
     },
     {
-      "path": "/vi/hoasen",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/hoasen",
-      "htmlFile": "vi/hoasen/index.html",
-      "routeId": "zWmYxJDq8",
-      "routePattern": "/hoasen",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/hoasen",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/hoasen",
-      "htmlFile": "hoasen/index.html",
-      "routeId": "zWmYxJDq8",
-      "routePattern": "/hoasen",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/contact",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/contact",
-      "htmlFile": "vi/contact/index.html",
-      "routeId": "WCZAY615O",
-      "routePattern": "/contact",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/contact",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/contact",
-      "htmlFile": "contact/index.html",
-      "routeId": "WCZAY615O",
-      "routePattern": "/contact",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/bonsai",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/bonsai",
-      "htmlFile": "vi/bonsai/index.html",
-      "routeId": "bf9LKHfOc",
-      "routePattern": "/bonsai",
+      "path": "/vi",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/",
+      "htmlFile": "vi/index.html",
+      "routeId": "OvbbREBQJ",
+      "routePattern": "/",
       "localeId": "FaailSceN"
     },
     {
@@ -129,11 +91,43 @@
       "localeId": "default"
     },
     {
-      "path": "/vi",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/",
-      "htmlFile": "vi/index.html",
-      "routeId": "OvbbREBQJ",
-      "routePattern": "/",
+      "path": "/vi/bonsai",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/bonsai",
+      "htmlFile": "vi/bonsai/index.html",
+      "routeId": "bf9LKHfOc",
+      "routePattern": "/bonsai",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/contact",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/contact",
+      "htmlFile": "contact/index.html",
+      "routeId": "WCZAY615O",
+      "routePattern": "/contact",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/contact",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/contact",
+      "htmlFile": "vi/contact/index.html",
+      "routeId": "WCZAY615O",
+      "routePattern": "/contact",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/hoasen",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/hoasen",
+      "htmlFile": "hoasen/index.html",
+      "routeId": "zWmYxJDq8",
+      "routePattern": "/hoasen",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/hoasen",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/hoasen",
+      "htmlFile": "vi/hoasen/index.html",
+      "routeId": "zWmYxJDq8",
+      "routePattern": "/hoasen",
       "localeId": "FaailSceN"
     }
   ],
@@ -146,12 +140,12 @@
   },
   "searchIndexes": [
     {
-      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.json",
-      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-0SPyO5dpQEJD.json"
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.json"
     },
     {
-      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.json",
-      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-BNui5fDdQf4g.json"
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.json"
     }
   ],
   "unresolvedDependencies": [
@@ -674,18 +668,6 @@
     {
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/7rDMqZJEz7O8qNkhtGdujrABwQ.png?scale-down-to=512&amp;width=584&amp;height=464",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:nimbus.html",
-      "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/7rDMqZJEz7O8qNkhtGdujrABwQ.png?width=584&amp;height=464",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:nimbus.html",
-      "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/a7IlUQ3a3pG2P3nUIUfiuXLqHqc.png?scale-down-to=1024&amp;width=3000&amp;height=2000",
       "reason": "not-mirrored"
     },
@@ -705,12 +687,6 @@
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/a7IlUQ3a3pG2P3nUIUfiuXLqHqc.png?width=3000&amp;height=2000",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:nimbus.html",
-      "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/cHHlKMT70UJ2SDRMrFlTIV5seow.png?width=363&amp;height=444",
       "reason": "not-mirrored"
     },
     {
@@ -776,7 +752,13 @@
     {
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/GpwdOyTzwzjISC1xqEUuPsMDeAA.png?width=363&amp;height=444",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/hJ0HGInnHUwX9HQZBBUk554lk7I.png?width=3630&amp;height=4440",
       "reason": "not-mirrored"
     },
     {
@@ -795,6 +777,12 @@
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/jhHqsGqYZbMmoHqcOCnqfVBbDJk.png?width=3630&amp;height=4440",
       "reason": "not-mirrored"
     },
     {
@@ -890,18 +878,6 @@
     {
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/ryK5AGhIcrN8Vrfm0HrHNnPlRkw.png?scale-down-to=512&amp;width=584&amp;height=464",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:nimbus.html",
-      "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/ryK5AGhIcrN8Vrfm0HrHNnPlRkw.png?width=584&amp;height=464",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:nimbus.html",
-      "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/tC6U0BJYxCRf6cg4aKkAMKJEeg.png?width=445&amp;height=330",
       "reason": "not-mirrored"
     },
@@ -963,6 +939,12 @@
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/YvIBRjcjkT5ZJBteaQfdgY7lU4.png?width=445&amp;height=330",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?width=5840&amp;height=4640",
       "reason": "not-mirrored"
     },
     {
@@ -1784,18 +1766,6 @@
     {
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/7rDMqZJEz7O8qNkhtGdujrABwQ.png?scale-down-to=512&amp;width=584&amp;height=464",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:vi/nimbus.html",
-      "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/7rDMqZJEz7O8qNkhtGdujrABwQ.png?width=584&amp;height=464",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:vi/nimbus.html",
-      "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/a7IlUQ3a3pG2P3nUIUfiuXLqHqc.png?scale-down-to=1024&amp;width=3000&amp;height=2000",
       "reason": "not-mirrored"
     },
@@ -1815,12 +1785,6 @@
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/a7IlUQ3a3pG2P3nUIUfiuXLqHqc.png?width=3000&amp;height=2000",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:vi/nimbus.html",
-      "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/cHHlKMT70UJ2SDRMrFlTIV5seow.png?width=363&amp;height=444",
       "reason": "not-mirrored"
     },
     {
@@ -1886,7 +1850,13 @@
     {
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/GpwdOyTzwzjISC1xqEUuPsMDeAA.png?width=363&amp;height=444",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/hJ0HGInnHUwX9HQZBBUk554lk7I.png?width=3630&amp;height=4440",
       "reason": "not-mirrored"
     },
     {
@@ -1905,6 +1875,12 @@
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/jhHqsGqYZbMmoHqcOCnqfVBbDJk.png?width=3630&amp;height=4440",
       "reason": "not-mirrored"
     },
     {
@@ -2000,18 +1976,6 @@
     {
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/ryK5AGhIcrN8Vrfm0HrHNnPlRkw.png?scale-down-to=512&amp;width=584&amp;height=464",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:vi/nimbus.html",
-      "ownerType": "asset",
-      "specifier": "https://framerusercontent.com/images/ryK5AGhIcrN8Vrfm0HrHNnPlRkw.png?width=584&amp;height=464",
-      "reason": "not-mirrored"
-    },
-    {
-      "owner": "asset:vi/nimbus.html",
-      "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/tC6U0BJYxCRf6cg4aKkAMKJEeg.png?width=445&amp;height=330",
       "reason": "not-mirrored"
     },
@@ -2073,6 +2037,12 @@
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/YvIBRjcjkT5ZJBteaQfdgY7lU4.png?width=445&amp;height=330",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?width=5840&amp;height=4640",
       "reason": "not-mirrored"
     },
     {

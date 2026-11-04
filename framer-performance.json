@@ -9,17 +9,17 @@
     "modulePreloads": 24
   },
   "stats": {
-    "routes": 15,
+    "routes": 14,
     "warnings": 2,
-    "totalHtmlBytes": 5874437,
-    "estimatedInitialBytes": 68971498
+    "totalHtmlBytes": 5877408,
+    "estimatedInitialBytes": 68966772
   },
   "locales": [],
   "routes": [
     {
       "routePath": "/",
       "htmlFile": "index.html",
-      "htmlBytes": 573373,
+      "htmlBytes": 573425,
       "images": {
         "total": 30,
         "lazy": 15,
@@ -27,27 +27,13 @@
       },
       "modulePreloads": 12,
       "lcpHints": [],
-      "estimatedInitialBytes": 4085582,
-      "warnings": []
-    },
-    {
-      "routePath": "/404/",
-      "htmlFile": "404.html",
-      "htmlBytes": 3666,
-      "images": {
-        "total": 0,
-        "lazy": 0,
-        "eager": 0
-      },
-      "modulePreloads": 0,
-      "lcpHints": [],
-      "estimatedInitialBytes": 147717,
+      "estimatedInitialBytes": 4095608,
       "warnings": []
     },
     {
       "routePath": "/vi/research/",
       "htmlFile": "vi/research/index.html",
-      "htmlBytes": 310074,
+      "htmlBytes": 310126,
       "images": {
         "total": 26,
         "lazy": 8,
@@ -55,13 +41,13 @@
       },
       "modulePreloads": 12,
       "lcpHints": [],
-      "estimatedInitialBytes": 3171091,
+      "estimatedInitialBytes": 3181117,
       "warnings": []
     },
     {
       "routePath": "/research/",
       "htmlFile": "research/index.html",
-      "htmlBytes": 310390,
+      "htmlBytes": 310442,
       "images": {
         "total": 26,
         "lazy": 8,
@@ -69,13 +55,13 @@
       },
       "modulePreloads": 12,
       "lcpHints": [],
-      "estimatedInitialBytes": 3171407,
+      "estimatedInitialBytes": 3181433,
       "warnings": []
     },
     {
       "routePath": "/vi/nura/",
       "htmlFile": "vi/nura/index.html",
-      "htmlBytes": 370285,
+      "htmlBytes": 370337,
       "images": {
         "total": 30,
         "lazy": 8,
@@ -83,18 +69,18 @@
       },
       "modulePreloads": 11,
       "lcpHints": [],
-      "estimatedInitialBytes": 13618311,
+      "estimatedInitialBytes": 13628361,
       "warnings": [
         {
           "code": "INITIAL_RESOURCE_BUDGET_EXCEEDED",
-          "message": "Estimated initial resources are 13618311 bytes (budget 6000000)."
+          "message": "Estimated initial resources are 13628361 bytes (budget 6000000)."
         }
       ]
     },
     {
       "routePath": "/nura/",
       "htmlFile": "nura/index.html",
-      "htmlBytes": 382273,
+      "htmlBytes": 373652,
       "images": {
         "total": 30,
         "lazy": 8,
@@ -102,130 +88,46 @@
       },
       "modulePreloads": 11,
       "lcpHints": [],
-      "estimatedInitialBytes": 13630299,
+      "estimatedInitialBytes": 13631676,
       "warnings": [
         {
           "code": "INITIAL_RESOURCE_BUDGET_EXCEEDED",
-          "message": "Estimated initial resources are 13630299 bytes (budget 6000000)."
+          "message": "Estimated initial resources are 13631676 bytes (budget 6000000)."
         }
       ]
     },
     {
       "routePath": "/vi/nimbus/",
       "htmlFile": "vi/nimbus/index.html",
-      "htmlBytes": 675948,
+      "htmlBytes": 674917,
       "images": {
-        "total": 61,
-        "lazy": 47,
+        "total": 60,
+        "lazy": 46,
         "eager": 14
       },
       "modulePreloads": 11,
       "lcpHints": [],
-      "estimatedInitialBytes": 4191396,
+      "estimatedInitialBytes": 4198575,
       "warnings": []
     },
     {
       "routePath": "/nimbus/",
       "htmlFile": "nimbus/index.html",
-      "htmlBytes": 675448,
+      "htmlBytes": 682560,
       "images": {
-        "total": 61,
-        "lazy": 47,
+        "total": 60,
+        "lazy": 46,
         "eager": 14
       },
       "modulePreloads": 11,
       "lcpHints": [],
-      "estimatedInitialBytes": 4190896,
-      "warnings": []
-    },
-    {
-      "routePath": "/vi/hoasen/",
-      "htmlFile": "vi/hoasen/index.html",
-      "htmlBytes": 436983,
-      "images": {
-        "total": 38,
-        "lazy": 24,
-        "eager": 14
-      },
-      "modulePreloads": 12,
-      "lcpHints": [],
-      "estimatedInitialBytes": 3317962,
-      "warnings": []
-    },
-    {
-      "routePath": "/hoasen/",
-      "htmlFile": "hoasen/index.html",
-      "htmlBytes": 437382,
-      "images": {
-        "total": 38,
-        "lazy": 24,
-        "eager": 14
-      },
-      "modulePreloads": 12,
-      "lcpHints": [],
-      "estimatedInitialBytes": 3318361,
-      "warnings": []
-    },
-    {
-      "routePath": "/vi/contact/",
-      "htmlFile": "vi/contact/index.html",
-      "htmlBytes": 282100,
-      "images": {
-        "total": 22,
-        "lazy": 8,
-        "eager": 14
-      },
-      "modulePreloads": 10,
-      "lcpHints": [],
-      "estimatedInitialBytes": 3100310,
-      "warnings": []
-    },
-    {
-      "routePath": "/contact/",
-      "htmlFile": "contact/index.html",
-      "htmlBytes": 281077,
-      "images": {
-        "total": 22,
-        "lazy": 8,
-        "eager": 14
-      },
-      "modulePreloads": 10,
-      "lcpHints": [],
-      "estimatedInitialBytes": 3099287,
-      "warnings": []
-    },
-    {
-      "routePath": "/vi/bonsai/",
-      "htmlFile": "vi/bonsai/index.html",
-      "htmlBytes": 286586,
-      "images": {
-        "total": 22,
-        "lazy": 8,
-        "eager": 14
-      },
-      "modulePreloads": 10,
-      "lcpHints": [],
-      "estimatedInitialBytes": 2927202,
-      "warnings": []
-    },
-    {
-      "routePath": "/bonsai/",
-      "htmlFile": "bonsai/index.html",
-      "htmlBytes": 285294,
-      "images": {
-        "total": 22,
-        "lazy": 8,
-        "eager": 14
-      },
-      "modulePreloads": 10,
-      "lcpHints": [],
-      "estimatedInitialBytes": 2925910,
+      "estimatedInitialBytes": 4206218,
       "warnings": []
     },
     {
       "routePath": "/vi/",
       "htmlFile": "vi/index.html",
-      "htmlBytes": 563558,
+      "htmlBytes": 563608,
       "images": {
         "total": 30,
         "lazy": 15,
@@ -233,7 +135,91 @@
       },
       "modulePreloads": 12,
       "lcpHints": [],
-      "estimatedInitialBytes": 4075767,
+      "estimatedInitialBytes": 4085791,
+      "warnings": []
+    },
+    {
+      "routePath": "/bonsai/",
+      "htmlFile": "bonsai/index.html",
+      "htmlBytes": 294019,
+      "images": {
+        "total": 22,
+        "lazy": 8,
+        "eager": 14
+      },
+      "modulePreloads": 10,
+      "lcpHints": [],
+      "estimatedInitialBytes": 2944609,
+      "warnings": []
+    },
+    {
+      "routePath": "/vi/bonsai/",
+      "htmlFile": "vi/bonsai/index.html",
+      "htmlBytes": 286638,
+      "images": {
+        "total": 22,
+        "lazy": 8,
+        "eager": 14
+      },
+      "modulePreloads": 10,
+      "lcpHints": [],
+      "estimatedInitialBytes": 2937228,
+      "warnings": []
+    },
+    {
+      "routePath": "/contact/",
+      "htmlFile": "contact/index.html",
+      "htmlBytes": 281129,
+      "images": {
+        "total": 22,
+        "lazy": 8,
+        "eager": 14
+      },
+      "modulePreloads": 10,
+      "lcpHints": [],
+      "estimatedInitialBytes": 3109364,
+      "warnings": []
+    },
+    {
+      "routePath": "/vi/contact/",
+      "htmlFile": "vi/contact/index.html",
+      "htmlBytes": 282086,
+      "images": {
+        "total": 22,
+        "lazy": 8,
+        "eager": 14
+      },
+      "modulePreloads": 10,
+      "lcpHints": [],
+      "estimatedInitialBytes": 3110321,
+      "warnings": []
+    },
+    {
+      "routePath": "/hoasen/",
+      "htmlFile": "hoasen/index.html",
+      "htmlBytes": 437434,
+      "images": {
+        "total": 38,
+        "lazy": 24,
+        "eager": 14
+      },
+      "modulePreloads": 12,
+      "lcpHints": [],
+      "estimatedInitialBytes": 3328435,
+      "warnings": []
+    },
+    {
+      "routePath": "/vi/hoasen/",
+      "htmlFile": "vi/hoasen/index.html",
+      "htmlBytes": 437035,
+      "images": {
+        "total": 38,
+        "lazy": 24,
+        "eager": 14
+      },
+      "modulePreloads": 12,
+      "lcpHints": [],
+      "estimatedInitialBytes": 3328036,
       "warnings": []
     }
   ]
