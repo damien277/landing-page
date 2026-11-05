@@ -1,6 +1,6 @@
 # landing-page
 
-Static Framer export for Botanika. The current design snapshot was imported from `botanika full 2`; the maintained build repairs localized SVG references and the static loading overlay target.
+Static Framer export for Botanika. The current design snapshot was imported from `botanika full3`; the maintained build repairs localized SVG references and the static loading overlay target.
 
 ## Pages
 
@@ -25,7 +25,7 @@ Run `npm test` for the SVG regression checks. After each import, preview the loa
 - Build restores the boot overlay's explicit element ID after each import. Still check both static and React loading overlays in a browser.
 - Contact uses FormSpark, not Botanika's `createContact` API. Contact links on the home page still point to the existing Botanika website.
 - Export certification reports failure (57 errors); its mirror manifest also reports 368 unresolved dependencies. The snapshot is not fully self-contained.
-- Import checks: 3 SVG regression tests passed, build completed, all 27 HTML paths returned HTTP 200, and local HTML asset references resolved. Browser smoke checks covered desktop home loading and the mobile contact form. Nimbus repeatedly stalled the headless browser, so its mobile rendering remains unverified. No contact data was submitted.
+- Latest import checks: 3 SVG regression tests and the release-helper self-check passed; build completed; all 27 HTML paths returned HTTP 200; 698 local HTML asset references resolved. Browser smoke checks covered desktop home loading/technology cards and the mobile contact form, with no page errors reported. Nimbus mobile rendering was not checked. No contact data was submitted.
 - Importing or merging a snapshot does not deploy it. Use the manual [Deploy staging workflow](https://github.com/damien277/landing-page/actions/workflows/deploy-staging.yml) on `main`; see [deployment and rollback instructions](docs/deployment-staging.md).
 
 Deployment configuration in `deploy/` and documentation in `docs/` are maintained separately from generated website files.

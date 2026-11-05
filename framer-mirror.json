@@ -6,8 +6,8 @@
   "complete": false,
   "stats": {
     "routes": 14,
-    "files": 802,
-    "dependencyEdges": 10457,
+    "files": 803,
+    "dependencyEdges": 10459,
     "unresolvedDependencies": 368,
     "incompleteFiles": 14,
     "searchIndexes": 2,
@@ -75,43 +75,11 @@
       "localeId": "default"
     },
     {
-      "path": "/vi",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/",
-      "htmlFile": "vi/index.html",
-      "routeId": "OvbbREBQJ",
-      "routePattern": "/",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/bonsai",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/bonsai",
-      "htmlFile": "bonsai/index.html",
-      "routeId": "bf9LKHfOc",
-      "routePattern": "/bonsai",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/bonsai",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/bonsai",
-      "htmlFile": "vi/bonsai/index.html",
-      "routeId": "bf9LKHfOc",
-      "routePattern": "/bonsai",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/contact",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/contact",
-      "htmlFile": "contact/index.html",
-      "routeId": "WCZAY615O",
-      "routePattern": "/contact",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/contact",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/contact",
-      "htmlFile": "vi/contact/index.html",
-      "routeId": "WCZAY615O",
-      "routePattern": "/contact",
+      "path": "/vi/hoasen",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/hoasen",
+      "htmlFile": "vi/hoasen/index.html",
+      "routeId": "zWmYxJDq8",
+      "routePattern": "/hoasen",
       "localeId": "FaailSceN"
     },
     {
@@ -123,11 +91,43 @@
       "localeId": "default"
     },
     {
-      "path": "/vi/hoasen",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/hoasen",
-      "htmlFile": "vi/hoasen/index.html",
-      "routeId": "zWmYxJDq8",
-      "routePattern": "/hoasen",
+      "path": "/vi/contact",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/contact",
+      "htmlFile": "vi/contact/index.html",
+      "routeId": "WCZAY615O",
+      "routePattern": "/contact",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/contact",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/contact",
+      "htmlFile": "contact/index.html",
+      "routeId": "WCZAY615O",
+      "routePattern": "/contact",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/bonsai",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/bonsai",
+      "htmlFile": "vi/bonsai/index.html",
+      "routeId": "bf9LKHfOc",
+      "routePattern": "/bonsai",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/bonsai",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/bonsai",
+      "htmlFile": "bonsai/index.html",
+      "routeId": "bf9LKHfOc",
+      "routePattern": "/bonsai",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/",
+      "htmlFile": "vi/index.html",
+      "routeId": "OvbbREBQJ",
+      "routePattern": "/",
       "localeId": "FaailSceN"
     }
   ],
@@ -140,12 +140,12 @@
   },
   "searchIndexes": [
     {
-      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.json",
-      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-8BGsy7qpIdvW.json"
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GDJvMiBxH6h4.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GDJvMiBxH6h4.json"
     },
     {
-      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.json",
-      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GIn71su7bPEj.json"
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-JyVHuWvV1Fbv.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-JyVHuWvV1Fbv.json"
     }
   ],
   "unresolvedDependencies": [
