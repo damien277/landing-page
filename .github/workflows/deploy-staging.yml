@@ -99,7 +99,7 @@ jobs:
             test -s "$BUILD_DIR/public/404.html"
             for locale in "" "vi/"; do
               test -s "$BUILD_DIR/public/${locale}index.html"
-              for page in contact bonsai hoasen nimbus nura research; do
+              for page in contact bonsai hoasen nimbus nura research offices imprint cookie-policy terms-and-conditions; do
                 test -s "$BUILD_DIR/public/${locale}${page}.html"
                 test -s "$BUILD_DIR/public/${locale}${page}/index.html"
               done
@@ -129,7 +129,7 @@ jobs:
             [ "$selected" = "$RELEASE_ID" ]
             paths=(/ /vi/)
             for locale in "" "/vi"; do
-              for page in contact bonsai hoasen nimbus nura research; do
+              for page in contact bonsai hoasen nimbus nura research offices imprint cookie-policy terms-and-conditions; do
                 paths+=("$locale/$page")
               done
             done

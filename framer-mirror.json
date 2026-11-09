@@ -5,11 +5,11 @@
   "primaryOrigin": "https://forgiving-channels-588160.framer.app",
   "complete": false,
   "stats": {
-    "routes": 14,
-    "files": 803,
-    "dependencyEdges": 10459,
-    "unresolvedDependencies": 368,
-    "incompleteFiles": 14,
+    "routes": 23,
+    "files": 910,
+    "dependencyEdges": 15887,
+    "unresolvedDependencies": 484,
+    "incompleteFiles": 22,
     "searchIndexes": 2,
     "missingSearchIndexes": 0,
     "cmsDetailRoutes": 0,
@@ -27,91 +27,11 @@
       "localeId": "default"
     },
     {
-      "path": "/vi/research",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/research",
-      "htmlFile": "vi/research/index.html",
-      "routeId": "S8B0b4zaK",
-      "routePattern": "/research",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/research",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/research",
-      "htmlFile": "research/index.html",
-      "routeId": "S8B0b4zaK",
-      "routePattern": "/research",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/nura",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/nura",
-      "htmlFile": "vi/nura/index.html",
-      "routeId": "RrhGuipu9",
-      "routePattern": "/nura",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/nura",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/nura",
-      "htmlFile": "nura/index.html",
-      "routeId": "RrhGuipu9",
-      "routePattern": "/nura",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/nimbus",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/nimbus",
-      "htmlFile": "vi/nimbus/index.html",
-      "routeId": "pi__nEFYm",
-      "routePattern": "/nimbus",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/nimbus",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/nimbus",
-      "htmlFile": "nimbus/index.html",
-      "routeId": "pi__nEFYm",
-      "routePattern": "/nimbus",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/hoasen",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/hoasen",
-      "htmlFile": "vi/hoasen/index.html",
-      "routeId": "zWmYxJDq8",
-      "routePattern": "/hoasen",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/hoasen",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/hoasen",
-      "htmlFile": "hoasen/index.html",
-      "routeId": "zWmYxJDq8",
-      "routePattern": "/hoasen",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/contact",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/contact",
-      "htmlFile": "vi/contact/index.html",
-      "routeId": "WCZAY615O",
-      "routePattern": "/contact",
-      "localeId": "FaailSceN"
-    },
-    {
-      "path": "/contact",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/contact",
-      "htmlFile": "contact/index.html",
-      "routeId": "WCZAY615O",
-      "routePattern": "/contact",
-      "localeId": "default"
-    },
-    {
-      "path": "/vi/bonsai",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/bonsai",
-      "htmlFile": "vi/bonsai/index.html",
-      "routeId": "bf9LKHfOc",
-      "routePattern": "/bonsai",
+      "path": "/vi",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/",
+      "htmlFile": "vi/index.html",
+      "routeId": "OvbbREBQJ",
+      "routePattern": "/",
       "localeId": "FaailSceN"
     },
     {
@@ -123,12 +43,162 @@
       "localeId": "default"
     },
     {
-      "path": "/vi",
-      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/",
-      "htmlFile": "vi/index.html",
-      "routeId": "OvbbREBQJ",
-      "routePattern": "/",
+      "path": "/vi/bonsai",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/bonsai",
+      "htmlFile": "vi/bonsai/index.html",
+      "routeId": "bf9LKHfOc",
+      "routePattern": "/bonsai",
       "localeId": "FaailSceN"
+    },
+    {
+      "path": "/contact",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/contact",
+      "htmlFile": "contact/index.html",
+      "routeId": "WCZAY615O",
+      "routePattern": "/contact",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/contact",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/contact",
+      "htmlFile": "vi/contact/index.html",
+      "routeId": "WCZAY615O",
+      "routePattern": "/contact",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/cookie-policy",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/cookie-policy",
+      "htmlFile": "cookie-policy/index.html",
+      "routeId": "AOBqQ1iGu",
+      "routePattern": "/cookie-policy",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/cookie-policy",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/cookie-policy",
+      "htmlFile": "vi/cookie-policy/index.html",
+      "routeId": "AOBqQ1iGu",
+      "routePattern": "/cookie-policy",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/hoasen",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/hoasen",
+      "htmlFile": "hoasen/index.html",
+      "routeId": "zWmYxJDq8",
+      "routePattern": "/hoasen",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/hoasen",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/hoasen",
+      "htmlFile": "vi/hoasen/index.html",
+      "routeId": "zWmYxJDq8",
+      "routePattern": "/hoasen",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/imprint",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/imprint",
+      "htmlFile": "imprint/index.html",
+      "routeId": "qAI2bDWtP",
+      "routePattern": "/imprint",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/imprint",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/imprint",
+      "htmlFile": "vi/imprint/index.html",
+      "routeId": "qAI2bDWtP",
+      "routePattern": "/imprint",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/nimbus",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/nimbus",
+      "htmlFile": "nimbus/index.html",
+      "routeId": "pi__nEFYm",
+      "routePattern": "/nimbus",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/nimbus",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/nimbus",
+      "htmlFile": "vi/nimbus/index.html",
+      "routeId": "pi__nEFYm",
+      "routePattern": "/nimbus",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/nura",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/nura",
+      "htmlFile": "nura/index.html",
+      "routeId": "RrhGuipu9",
+      "routePattern": "/nura",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/nura",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/nura",
+      "htmlFile": "vi/nura/index.html",
+      "routeId": "RrhGuipu9",
+      "routePattern": "/nura",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/offices",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/offices",
+      "htmlFile": "offices/index.html",
+      "routeId": "XT90YisSq",
+      "routePattern": "/offices",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/offices",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/offices",
+      "htmlFile": "vi/offices/index.html",
+      "routeId": "XT90YisSq",
+      "routePattern": "/offices",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/research",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/research",
+      "htmlFile": "research/index.html",
+      "routeId": "S8B0b4zaK",
+      "routePattern": "/research",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/research",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/research",
+      "htmlFile": "vi/research/index.html",
+      "routeId": "S8B0b4zaK",
+      "routePattern": "/research",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/terms-and-conditions",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/terms-and-conditions",
+      "htmlFile": "terms-and-conditions/index.html",
+      "routeId": "EcZ5Vur5t",
+      "routePattern": "/terms-and-conditions",
+      "localeId": "default"
+    },
+    {
+      "path": "/vi/terms-and-conditions",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/vi/terms-and-conditions",
+      "htmlFile": "vi/terms-and-conditions/index.html",
+      "routeId": "EcZ5Vur5t",
+      "routePattern": "/terms-and-conditions",
+      "localeId": "FaailSceN"
+    },
+    {
+      "path": "/404",
+      "sourceUrl": "https://forgiving-channels-588160.framer.app/404",
+      "htmlFile": "404.html",
+      "localeId": "default"
     }
   ],
   "cms": {
@@ -140,12 +210,12 @@
   },
   "searchIndexes": [
     {
-      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GDJvMiBxH6h4.json",
-      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-GDJvMiBxH6h4.json"
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-k99Yh24zD7d7.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-k99Yh24zD7d7.json"
     },
     {
-      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-JyVHuWvV1Fbv.json",
-      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-JyVHuWvV1Fbv.json"
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-wH3LrEvrxlkw.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-wH3LrEvrxlkw.json"
     }
   ],
   "unresolvedDependencies": [
@@ -282,6 +352,72 @@
       "reason": "not-mirrored"
     },
     {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
       "owner": "asset:hoasen.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/7jda5aIWwKdqTsbdl8VAvDS0HHk.png?scale-down-to=1024&amp;width=2225&amp;height=1650",
@@ -511,6 +647,72 @@
     },
     {
       "owner": "asset:hoasen.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:imprint.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
       "reason": "not-mirrored"
@@ -752,7 +954,49 @@
     {
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?scale-down-to=1024&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?scale-down-to=2048&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?scale-down-to=4096&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?scale-down-to=512&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/hJ0HGInnHUwX9HQZBBUk554lk7I.png?scale-down-to=1024&amp;width=3630&amp;height=4440",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/hJ0HGInnHUwX9HQZBBUk554lk7I.png?scale-down-to=2048&amp;width=3630&amp;height=4440",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/hJ0HGInnHUwX9HQZBBUk554lk7I.png?scale-down-to=4096&amp;width=3630&amp;height=4440",
       "reason": "not-mirrored"
     },
     {
@@ -777,6 +1021,24 @@
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/jhHqsGqYZbMmoHqcOCnqfVBbDJk.png?scale-down-to=1024&amp;width=3630&amp;height=4440",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/jhHqsGqYZbMmoHqcOCnqfVBbDJk.png?scale-down-to=2048&amp;width=3630&amp;height=4440",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/jhHqsGqYZbMmoHqcOCnqfVBbDJk.png?scale-down-to=4096&amp;width=3630&amp;height=4440",
       "reason": "not-mirrored"
     },
     {
@@ -939,6 +1201,30 @@
       "owner": "asset:nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/YvIBRjcjkT5ZJBteaQfdgY7lU4.png?width=445&amp;height=330",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?scale-down-to=1024&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?scale-down-to=2048&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?scale-down-to=4096&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?scale-down-to=512&amp;width=5840&amp;height=4640",
       "reason": "not-mirrored"
     },
     {
@@ -1122,6 +1408,72 @@
       "reason": "not-mirrored"
     },
     {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
       "owner": "asset:research.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
@@ -1248,6 +1600,72 @@
       "reason": "not-mirrored"
     },
     {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
       "owner": "asset:vi/bonsai.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
@@ -1375,6 +1793,72 @@
     },
     {
       "owner": "asset:vi/contact.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/cookie-policy.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
       "reason": "not-mirrored"
@@ -1609,6 +2093,72 @@
     },
     {
       "owner": "asset:vi/hoasen.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/imprint.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
       "reason": "not-mirrored"
@@ -1850,7 +2400,49 @@
     {
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?scale-down-to=1024&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?scale-down-to=2048&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?scale-down-to=4096&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?scale-down-to=512&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/GZtdw7Y0pthhUElfR7YDZYFDVn8.png?width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/hJ0HGInnHUwX9HQZBBUk554lk7I.png?scale-down-to=1024&amp;width=3630&amp;height=4440",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/hJ0HGInnHUwX9HQZBBUk554lk7I.png?scale-down-to=2048&amp;width=3630&amp;height=4440",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/hJ0HGInnHUwX9HQZBBUk554lk7I.png?scale-down-to=4096&amp;width=3630&amp;height=4440",
       "reason": "not-mirrored"
     },
     {
@@ -1875,6 +2467,24 @@
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/jhHqsGqYZbMmoHqcOCnqfVBbDJk.png?scale-down-to=1024&amp;width=3630&amp;height=4440",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/jhHqsGqYZbMmoHqcOCnqfVBbDJk.png?scale-down-to=2048&amp;width=3630&amp;height=4440",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/jhHqsGqYZbMmoHqcOCnqfVBbDJk.png?scale-down-to=4096&amp;width=3630&amp;height=4440",
       "reason": "not-mirrored"
     },
     {
@@ -2037,6 +2647,30 @@
       "owner": "asset:vi/nimbus.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/YvIBRjcjkT5ZJBteaQfdgY7lU4.png?width=445&amp;height=330",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?scale-down-to=1024&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?scale-down-to=2048&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?scale-down-to=4096&amp;width=5840&amp;height=4640",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/nimbus.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/Z9JBlx4w8DgWzeo9TRLmmebT9A.png?scale-down-to=512&amp;width=5840&amp;height=4640",
       "reason": "not-mirrored"
     },
     {
@@ -2220,6 +2854,72 @@
       "reason": "not-mirrored"
     },
     {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/offices.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
       "owner": "asset:vi/research.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
@@ -2341,6 +3041,72 @@
     },
     {
       "owner": "asset:vi/research.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/cUqsAKsGrkH6uDMmiqsNdbgLGrM.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ejMmNdH4ic44p038xwrsKuy0z4g.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/ILf5xJnvfC9zxKVLyxFDDvUUIHI.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iW1d0elCWO8MXKDKrnB5qGnaTQw.svg?width=24&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/iwaN2tJCi5ujuOZTE3YdFqF8.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/MrDbO0o1WCc9dheakSgALqBtHc.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/n0MGXeRsdJTqcdI45nR42HyZ10.svg?width=32&amp;height=24",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=1024&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?scale-down-to=512&amp;width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
+      "ownerType": "asset",
+      "specifier": "https://framerusercontent.com/images/WFpkEY4U2YfWmnJcO1hZ86XpVUQ.png?width=1620&amp;height=320",
+      "reason": "not-mirrored"
+    },
+    {
+      "owner": "asset:vi/terms-and-conditions.html",
       "ownerType": "asset",
       "specifier": "https://framerusercontent.com/images/WlQZ2zm7UywirzZGuUwEp0v2h18.svg?width=24&amp;height=24",
       "reason": "not-mirrored"
@@ -2361,17 +3127,25 @@
   "incompleteFiles": [
     "bonsai.html",
     "contact.html",
+    "cookie-policy.html",
     "hoasen.html",
+    "imprint.html",
     "index.html",
     "nimbus.html",
     "nura.html",
+    "offices.html",
     "research.html",
+    "terms-and-conditions.html",
     "vi/bonsai.html",
     "vi/contact.html",
+    "vi/cookie-policy.html",
     "vi/hoasen.html",
+    "vi/imprint.html",
     "vi/index.html",
     "vi/nimbus.html",
     "vi/nura.html",
-    "vi/research.html"
+    "vi/offices.html",
+    "vi/research.html",
+    "vi/terms-and-conditions.html"
   ]
 }
