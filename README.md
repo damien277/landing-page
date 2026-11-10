@@ -20,6 +20,8 @@ Build also ensures every HTML output has the exporter's existing badge/editor-ba
 
 Run `npm test` for the SVG regression checks. After each import, preview the loading flow and technology cards on desktop/mobile before merging and manually deploying.
 
+The exported Smooth Scroll module and home runtime bundle are patched locally: only unmodified same-document anchor clicks with an existing target are intercepted. Cross-page office links, new tabs and downloads retain browser navigation. `node --test scripts/smooth-scroll-navigation.test.mjs` exercises both shipped handlers. This patch is not yet in Framer; reapply it after a fresh export (or fix the upstream component) before deploying. The regression checks reject the original broken handlers.
+
 ## Known limitations of this snapshot
 
 - Build restores the boot overlay's explicit element ID after each import. Still check both static and React loading overlays in a browser.
