@@ -23,7 +23,6 @@ import { readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { normalizeSvgReferences } from './normalize-svg-references.mjs';
-import { normalizeFooterLabels } from './normalize-footer-labels.mjs';
 // Source origin embedded at export time
 const SOURCE_ORIGIN = 'https://forgiving-channels-588160.framer.app';
 
@@ -124,9 +123,8 @@ let svgCount = 0, chromeCount = 0;
 walkFiles('.', (filePath, name) => {
   if (!name.toLowerCase().endsWith('.html')) return;
   const original = readFileSync(filePath, 'utf8');
-  const svgNormalized = normalizeSvgReferences(original);
-  let normalized = normalizeFooterLabels(svgNormalized).replace('var root=document.currentScript.previousElementSibling;', 'var root=document.getElementById("botanika-loading-boot");');
-  if (svgNormalized !== original) svgCount++;
+  let normalized = normalizeSvgReferences(original).replace('var root=document.currentScript.previousElementSibling;', 'var root=document.getElementById("botanika-loading-boot");');
+  if (normalized !== original) svgCount++;
   if (!/<style\b[^>]*\bdata-nce-static-builder-chrome\b/i.test(normalized)) {
     const headEnd = /<\/head\s*>|<body\b[^>]*>/i;
     if (!headEnd.test(normalized)) throw new Error(`Missing HTML head/body boundary in ${filePath}`);

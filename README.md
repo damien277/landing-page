@@ -22,8 +22,6 @@ Run `npm test` for the SVG regression checks. After each import, preview the loa
 
 The exported Smooth Scroll module and home runtime bundle are patched locally: only unmodified same-document anchor clicks with an existing target are intercepted. Cross-page office links, new tabs and downloads retain browser navigation. `node --test scripts/smooth-scroll-navigation.test.mjs` exercises both shipped handlers. This patch is not yet in Framer; reapply it after a fresh export (or fix the upstream component) before deploying. The regression checks reject the original broken handlers.
 
-Build also trims the stray leading space in the two padded footer office labels ("Dubai, United Arab Emirates" and "Ho Chi Minh City, Vietnam"). The authored text still has that space in Framer; fix it there and delete `scripts/normalize-footer-labels.mjs` once a fresh export no longer needs it.
-
 ## Known limitations of this snapshot
 
 - Build restores the boot overlay's explicit element ID after each import. Still check both static and React loading overlays in a browser.

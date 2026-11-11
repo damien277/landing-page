@@ -1,11 +1,23 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
 import { runInNewContext } from 'node:vm';
+
+const SITES = '_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw';
+const bundlePath = readdirSync(SITES)
+  .filter(name => name.endsWith('.mjs'))
+  .map(name => join(SITES, name))
+  .find(path => readFileSync(path, 'utf8').includes('Error in anchor click handler'));
+if (!bundlePath) throw new Error('Smooth Scroll bundle not found');
+const bundleSource = readFileSync(bundlePath, 'utf8');
+const component = /function ([A-Za-z0-9_$]+)\(e\)\{let\{intensity:/.exec(bundleSource);
+const tail = /}var [A-Za-z0-9_$]+;function/.exec(bundleSource.slice(component.index));
+const endMarker = tail[0].slice(1, tail[0].lastIndexOf(';') + 1);
 
 const implementations = [
   ['module', '_remote/framerusercontent.com/modules/Yppqt3Cs3Y8TZqvASnXl/PGrowqBrgWCViHduGfsA/SmoothScroll_Prod.js', 'function SmoothScrollComponent(', '/**', 'SmoothScrollComponent'],
-  ['bundle', '_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/IL7S0dBy96_3KfqlBnh5qoHw2XxOytY-7nteFHr2WIU.DzS_dXxp.mjs', 'function Gt(', 'var Kt;', 'Gt'],
+  ['bundle', bundlePath, `function ${component[1]}(`, endMarker, component[1]],
 ];
 
 function mount(path, start, end, name, destination, options = {}) {
@@ -36,9 +48,10 @@ function mount(path, start, end, name, destination, options = {}) {
   const offset = source.indexOf(start);
   assert.notEqual(offset, -1);
   const component = source.slice(offset, source.indexOf(end, offset));
+  const [constructorName] = /new ([A-Za-z0-9_$]+)\(\{duration:/.exec(component)?.slice(1) ?? [];
   runInNewContext(`${component}\n${name}({intensity:10});`, {
     window, a: window, document, useRef, s: useRef, useEffect, _: useEffect,
-    Lenis, Ut: Lenis, MutationObserver, requestAnimationFrame: () => 1,
+    Lenis, [constructorName ?? 'Lenis']: Lenis, MutationObserver, requestAnimationFrame: () => 1,
     _jsx: () => null, f: () => null, console,
   });
   effects.forEach(effect => effect());
