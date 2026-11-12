@@ -50,9 +50,9 @@ function mount(path, start, end, name, destination, options = {}) {
   const component = source.slice(offset, source.indexOf(end, offset));
   const [constructorName] = /new ([A-Za-z0-9_$]+)\(\{duration:/.exec(component)?.slice(1) ?? [];
   runInNewContext(`${component}\n${name}({intensity:10});`, {
-    window, a: window, document, useRef, s: useRef, useEffect, _: useEffect,
+    window, o: window, document, useRef, c: useRef, useEffect, v: useEffect,
     Lenis, [constructorName ?? 'Lenis']: Lenis, MutationObserver, requestAnimationFrame: () => 1,
-    _jsx: () => null, f: () => null, console,
+    _jsx: () => null, p: () => null, console,
   });
   effects.forEach(effect => effect());
   const event = {

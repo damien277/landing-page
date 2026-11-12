@@ -1,6 +1,6 @@
 # landing-page
 
-Static Framer export for Botanika. The current design snapshot was imported from `botanika (4)`; the maintained build repairs localized SVG references and the static loading overlay target.
+Static Framer export for Botanika. The current design snapshot was imported from `botanika 5`, retaining the existing footer markup, styles and behavior; the maintained build repairs localized SVG references and the static loading overlay target.
 
 ## Pages
 
@@ -27,7 +27,7 @@ The exported Smooth Scroll module and home runtime bundle are patched locally: o
 - Build restores the boot overlay's explicit element ID after each import. Still check both static and React loading overlays in a browser.
 - Contact submits to `https://api-staging.botanika.ai/graphql` using `createContact`; home contact links target the staging site.
 - Export certification reports failure (89 errors); its mirror manifest also reports 484 unresolved dependencies across 22 files. The snapshot is not fully self-contained.
-- Latest import checks: 3 SVG regression tests passed; build completed; all 43 HTML paths returned HTTP 200; 1,882 local HTML asset references resolved. Browser smoke checks covered desktop home loading/technology cards, Offices, and the Vietnamese mobile contact form/country picker. Nimbus mobile rendering, API schema/CORS and actual contact delivery were not checked. No contact data was submitted.
+- `botanika 5` verification: 9 regression checks passed; staging-origin build succeeded; all 43 HTML paths returned HTTP 200 and 1,882 local resource references resolved. Footer markup and styles matched the previous export across all 43 pages. Browser checks covered desktop home loading/footer, Vietnamese mobile contact/country picker, and mobile Nimbus loading/rendering. No contact data was submitted; API delivery was not checked.
 - Importing or merging a snapshot does not deploy it. Use the manual [Deploy staging workflow](https://github.com/damien277/landing-page/actions/workflows/deploy-staging.yml) on `main`; see [deployment and rollback instructions](docs/deployment-staging.md).
 
 Deployment configuration in `deploy/` and documentation in `docs/` are maintained separately from generated website files.

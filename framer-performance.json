@@ -11,15 +11,15 @@
   "stats": {
     "routes": 23,
     "warnings": 6,
-    "totalHtmlBytes": 8158541,
-    "estimatedInitialBytes": 82899885
+    "totalHtmlBytes": 8167718,
+    "estimatedInitialBytes": 83512152
   },
   "locales": [],
   "routes": [
     {
       "routePath": "/",
       "htmlFile": "index.html",
-      "htmlBytes": 576193,
+      "htmlBytes": 576445,
       "images": {
         "total": 30,
         "lazy": 15,
@@ -27,13 +27,13 @@
       },
       "modulePreloads": 13,
       "lcpHints": [],
-      "estimatedInitialBytes": 3603030,
+      "estimatedInitialBytes": 3647670,
       "warnings": []
     },
     {
       "routePath": "/vi/",
       "htmlFile": "vi/index.html",
-      "htmlBytes": 566456,
+      "htmlBytes": 566708,
       "images": {
         "total": 30,
         "lazy": 15,
@@ -41,7 +41,7 @@
       },
       "modulePreloads": 13,
       "lcpHints": [],
-      "estimatedInitialBytes": 3593293,
+      "estimatedInitialBytes": 3637933,
       "warnings": []
     },
     {
@@ -55,7 +55,7 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 2989874,
+      "estimatedInitialBytes": 3014246,
       "warnings": []
     },
     {
@@ -69,13 +69,13 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 2982578,
+      "estimatedInitialBytes": 3006950,
       "warnings": []
     },
     {
       "routePath": "/contact/",
       "htmlFile": "contact/index.html",
-      "htmlBytes": 294484,
+      "htmlBytes": 285811,
       "images": {
         "total": 22,
         "lazy": 8,
@@ -83,7 +83,7 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 3164622,
+      "estimatedInitialBytes": 3180321,
       "warnings": []
     },
     {
@@ -97,7 +97,7 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 3156991,
+      "estimatedInitialBytes": 3181363,
       "warnings": []
     },
     {
@@ -111,7 +111,7 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1418734,
+      "estimatedInitialBytes": 1442543,
       "warnings": []
     },
     {
@@ -125,7 +125,7 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1420915,
+      "estimatedInitialBytes": 1444724,
       "warnings": []
     },
     {
@@ -139,7 +139,7 @@
       },
       "modulePreloads": 25,
       "lcpHints": [],
-      "estimatedInitialBytes": 3371725,
+      "estimatedInitialBytes": 3396097,
       "warnings": [
         {
           "code": "MODULE_PRELOAD_BUDGET_EXCEEDED",
@@ -158,7 +158,7 @@
       },
       "modulePreloads": 25,
       "lcpHints": [],
-      "estimatedInitialBytes": 3371411,
+      "estimatedInitialBytes": 3395783,
       "warnings": [
         {
           "code": "MODULE_PRELOAD_BUDGET_EXCEEDED",
@@ -177,7 +177,7 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1435268,
+      "estimatedInitialBytes": 1459077,
       "warnings": []
     },
     {
@@ -191,13 +191,13 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1437187,
+      "estimatedInitialBytes": 1460996,
       "warnings": []
     },
     {
       "routePath": "/nimbus/",
       "htmlFile": "nimbus/index.html",
-      "htmlBytes": 679621,
+      "htmlBytes": 688294,
       "images": {
         "total": 60,
         "lazy": 46,
@@ -205,7 +205,7 @@
       },
       "modulePreloads": 14,
       "lcpHints": [],
-      "estimatedInitialBytes": 4067020,
+      "estimatedInitialBytes": 4100065,
       "warnings": []
     },
     {
@@ -219,7 +219,7 @@
       },
       "modulePreloads": 14,
       "lcpHints": [],
-      "estimatedInitialBytes": 4068215,
+      "estimatedInitialBytes": 4092587,
       "warnings": []
     },
     {
@@ -233,11 +233,11 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 13674734,
+      "estimatedInitialBytes": 13699106,
       "warnings": [
         {
           "code": "INITIAL_RESOURCE_BUDGET_EXCEEDED",
-          "message": "Estimated initial resources are 13674734 bytes (budget 6000000)."
+          "message": "Estimated initial resources are 13699106 bytes (budget 6000000)."
         }
       ]
     },
@@ -252,18 +252,18 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 13671504,
+      "estimatedInitialBytes": 13695876,
       "warnings": [
         {
           "code": "INITIAL_RESOURCE_BUDGET_EXCEEDED",
-          "message": "Estimated initial resources are 13671504 bytes (budget 6000000)."
+          "message": "Estimated initial resources are 13695876 bytes (budget 6000000)."
         }
       ]
     },
     {
       "routePath": "/offices/",
       "htmlFile": "offices/index.html",
-      "htmlBytes": 287257,
+      "htmlBytes": 295930,
       "images": {
         "total": 22,
         "lazy": 8,
@@ -271,7 +271,7 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 2970921,
+      "estimatedInitialBytes": 3003966,
       "warnings": []
     },
     {
@@ -285,7 +285,7 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 2968132,
+      "estimatedInitialBytes": 2992504,
       "warnings": []
     },
     {
@@ -299,7 +299,7 @@
       },
       "modulePreloads": 26,
       "lcpHints": [],
-      "estimatedInitialBytes": 3228061,
+      "estimatedInitialBytes": 3252433,
       "warnings": [
         {
           "code": "MODULE_PRELOAD_BUDGET_EXCEEDED",
@@ -318,7 +318,7 @@
       },
       "modulePreloads": 26,
       "lcpHints": [],
-      "estimatedInitialBytes": 3227830,
+      "estimatedInitialBytes": 3252202,
       "warnings": [
         {
           "code": "MODULE_PRELOAD_BUDGET_EXCEEDED",
@@ -337,7 +337,7 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1453981,
+      "estimatedInitialBytes": 1477790,
       "warnings": []
     },
     {
@@ -351,7 +351,7 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1457741,
+      "estimatedInitialBytes": 1481550,
       "warnings": []
     },
     {
@@ -365,7 +365,7 @@
       },
       "modulePreloads": 0,
       "lcpHints": [],
-      "estimatedInitialBytes": 166118,
+      "estimatedInitialBytes": 196370,
       "warnings": []
     }
   ]
