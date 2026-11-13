@@ -124,6 +124,17 @@ walkFiles('.', (filePath, name) => {
   if (!name.toLowerCase().endsWith('.html')) return;
   const original = readFileSync(filePath, 'utf8');
   let normalized = normalizeSvgReferences(original).replace('var root=document.currentScript.previousElementSibling;', 'var root=document.getElementById("botanika-loading-boot");');
+  // Keep the maintained footer link in static HTML as well as the shared runtime.
+  normalized = normalized.replace(/<footer\b[\s\S]*?<\/footer>/g, footer => {
+    if (footer.includes('framer-1j2j8uc')) return footer;
+    return footer.replace(/<!--\$--><div class="framer-1c3ri1y"[\s\S]*?<\/div><!--\/\$-->/, contact =>
+      contact + contact.replace('framer-1c3ri1y', 'framer-1j2j8uc')
+        .replace(/href="[^"]*"/, 'href="https://hello.botanika.ai/offices"')
+        .replace('>Contact</a>', '>Global Offices</a>'));
+  });
+  if (!normalized.includes('.framer-s0sE4 .framer-1j2j8uc,')) {
+    normalized = normalized.replaceAll('.framer-s0sE4 .framer-1c3ri1y,', '.framer-s0sE4 .framer-1j2j8uc, .framer-s0sE4 .framer-1c3ri1y,');
+  }
   if (normalized !== original) svgCount++;
   if (!/<style\b[^>]*\bdata-nce-static-builder-chrome\b/i.test(normalized)) {
     const headEnd = /<\/head\s*>|<body\b[^>]*>/i;
