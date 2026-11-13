@@ -1,6 +1,6 @@
 # landing-page
 
-Static Framer export for Botanika. The current design snapshot was imported from `botanika (6)`, retaining the existing footer markup, styles and behavior; the maintained build repairs localized SVG references and the static loading overlay target.
+Static Framer export for Botanika. The current design snapshot was imported from `botanika (7)`, retaining the existing footer markup, styles and behavior; the maintained build repairs localized SVG references and the static loading overlay target.
 
 ## Pages
 
@@ -14,6 +14,8 @@ Run `npm run build`, then `python3 -m http.server 8000 --directory public` and o
 
 Replace the exported pages/assets, but preserve the maintained `scripts/`, `package.json`, `.github/`, `deploy/` and `docs/`. In particular, keep our build scripts rather than overwriting them with the exporter's generated versions.
 
+The `botanika (7)` import restores the footer's Global Offices link in static HTML, the source component and the shipped shared runtime bundle, including its language override and CSS. Keep these footer changes when importing again. Eight incomplete Vietnamese flat HTML pages were regenerated from their complete directory equivalents with relative paths rebased; check both route variants after future exports.
+
 `npm run build` automatically restores same-document SVG references such as `url(./index.html#id)` and `<use href="./index.html#id">` to fragment-only references when the target ID exists in the HTML. It runs without `SITE_URL` too, and preserves navigation links and external assets. Missing IDs are left unchanged; references inside CSS blocks are not normalized.
 
 Build also ensures every HTML output has the exporter's existing badge/editor-bar suppression CSS, without duplicating it. This keeps flat routes (`/contact`, served as `contact.html` by NGINX) consistent with directory routes (`/contact/`). For Python's local server, compare `/contact.html` and `/contact/`.
@@ -26,8 +28,8 @@ The exported Smooth Scroll module and home runtime bundle are patched locally: o
 
 - Build restores the boot overlay's explicit element ID after each import. Still check both static and React loading overlays in a browser.
 - Contact submits to `https://api-staging.botanika.ai/graphql` using `createContact`; home contact links target the staging site.
-- Export certification reports failure (89 errors); its mirror manifest also reports 484 unresolved dependencies across 22 files. The snapshot is not fully self-contained.
-- `botanika (6)` verification: 9 regression checks passed; staging-origin build succeeded; all 43 HTML paths returned HTTP 200 and 1,882 local resource references resolved. Footer markup/styles were preserved across all 43 pages. Browser checks covered desktop home/footer and Vietnamese mobile contact/footer. No contact data was submitted; API delivery and the complete 3D/animation sequence were not checked.
+- Export certification reports failure (89 errors); its mirror manifest also reports 318 unresolved dependencies across 14 files. The snapshot is not fully self-contained.
+- `botanika (7)` verification: 9 regression checks passed; staging-origin build succeeded; all 43 HTML paths returned HTTP 200 and 1,588 local HTML resource/navigation references resolved. Footer markup was preserved across all 42 content pages. Browser checks covered desktop home/loading/footer and the repaired Vietnamese mobile contact/footer after hydration. No contact data was submitted; API delivery and the complete 3D/animation sequence were not checked.
 - Importing or merging a snapshot does not deploy it. Use the manual [Deploy staging workflow](https://github.com/damien277/landing-page/actions/workflows/deploy-staging.yml) on `main`; see [deployment and rollback instructions](docs/deployment-staging.md).
 
 Deployment configuration in `deploy/` and documentation in `docs/` are maintained separately from generated website files.
