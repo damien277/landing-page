@@ -6,8 +6,8 @@
   "complete": false,
   "stats": {
     "routes": 23,
-    "files": 1120,
-    "dependencyEdges": 16292,
+    "files": 1022,
+    "dependencyEdges": 16093,
     "unresolvedDependencies": 484,
     "incompleteFiles": 22,
     "searchIndexes": 2,
@@ -210,12 +210,12 @@
   },
   "searchIndexes": [
     {
-      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-6Ii17ElSfRPS.json",
-      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-6Ii17ElSfRPS.json"
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-uLjLC8zj6pVF.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-uLjLC8zj6pVF.json"
     },
     {
-      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-PxFAruHokPav.json",
-      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-PxFAruHokPav.json"
+      "sourceUrl": "https://framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-yzoJbvY8duma.json",
+      "localFile": "_remote/framerusercontent.com/sites/2sCVuo4iVIB3EAvYAQN9Pw/searchIndex-yzoJbvY8duma.json"
     }
   ],
   "unresolvedDependencies": [

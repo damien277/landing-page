@@ -11,15 +11,15 @@
   "stats": {
     "routes": 23,
     "warnings": 6,
-    "totalHtmlBytes": 8167718,
-    "estimatedInitialBytes": 83512152
+    "totalHtmlBytes": 8168994,
+    "estimatedInitialBytes": 83191130
   },
   "locales": [],
   "routes": [
     {
       "routePath": "/",
       "htmlFile": "index.html",
-      "htmlBytes": 576445,
+      "htmlBytes": 576893,
       "images": {
         "total": 30,
         "lazy": 15,
@@ -27,13 +27,13 @@
       },
       "modulePreloads": 13,
       "lcpHints": [],
-      "estimatedInitialBytes": 3647670,
+      "estimatedInitialBytes": 3633003,
       "warnings": []
     },
     {
       "routePath": "/vi/",
       "htmlFile": "vi/index.html",
-      "htmlBytes": 566708,
+      "htmlBytes": 567156,
       "images": {
         "total": 30,
         "lazy": 15,
@@ -41,13 +41,13 @@
       },
       "modulePreloads": 13,
       "lcpHints": [],
-      "estimatedInitialBytes": 3637933,
+      "estimatedInitialBytes": 3623266,
       "warnings": []
     },
     {
       "routePath": "/bonsai/",
       "htmlFile": "bonsai/index.html",
-      "htmlBytes": 298152,
+      "htmlBytes": 298171,
       "images": {
         "total": 22,
         "lazy": 8,
@@ -55,13 +55,13 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 3014246,
+      "estimatedInitialBytes": 3000357,
       "warnings": []
     },
     {
       "routePath": "/vi/bonsai/",
       "htmlFile": "vi/bonsai/index.html",
-      "htmlBytes": 290856,
+      "htmlBytes": 290875,
       "images": {
         "total": 22,
         "lazy": 8,
@@ -69,13 +69,13 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 3006950,
+      "estimatedInitialBytes": 2993061,
       "warnings": []
     },
     {
       "routePath": "/contact/",
       "htmlFile": "contact/index.html",
-      "htmlBytes": 285811,
+      "htmlBytes": 285830,
       "images": {
         "total": 22,
         "lazy": 8,
@@ -83,13 +83,13 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 3180321,
+      "estimatedInitialBytes": 3166432,
       "warnings": []
     },
     {
       "routePath": "/vi/contact/",
       "htmlFile": "vi/contact/index.html",
-      "htmlBytes": 286853,
+      "htmlBytes": 286872,
       "images": {
         "total": 22,
         "lazy": 8,
@@ -97,13 +97,13 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 3181363,
+      "estimatedInitialBytes": 3167474,
       "warnings": []
     },
     {
       "routePath": "/cookie-policy/",
       "htmlFile": "cookie-policy/index.html",
-      "htmlBytes": 265552,
+      "htmlBytes": 265571,
       "images": {
         "total": 21,
         "lazy": 8,
@@ -111,13 +111,13 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1442543,
+      "estimatedInitialBytes": 1428654,
       "warnings": []
     },
     {
       "routePath": "/vi/cookie-policy/",
       "htmlFile": "vi/cookie-policy/index.html",
-      "htmlBytes": 267733,
+      "htmlBytes": 267752,
       "images": {
         "total": 21,
         "lazy": 8,
@@ -125,13 +125,13 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1444724,
+      "estimatedInitialBytes": 1430835,
       "warnings": []
     },
     {
       "routePath": "/hoasen/",
       "htmlFile": "hoasen/index.html",
-      "htmlBytes": 440904,
+      "htmlBytes": 440923,
       "images": {
         "total": 38,
         "lazy": 24,
@@ -139,7 +139,7 @@
       },
       "modulePreloads": 25,
       "lcpHints": [],
-      "estimatedInitialBytes": 3396097,
+      "estimatedInitialBytes": 3382208,
       "warnings": [
         {
           "code": "MODULE_PRELOAD_BUDGET_EXCEEDED",
@@ -150,7 +150,7 @@
     {
       "routePath": "/vi/hoasen/",
       "htmlFile": "vi/hoasen/index.html",
-      "htmlBytes": 440590,
+      "htmlBytes": 440609,
       "images": {
         "total": 38,
         "lazy": 24,
@@ -158,7 +158,7 @@
       },
       "modulePreloads": 25,
       "lcpHints": [],
-      "estimatedInitialBytes": 3395783,
+      "estimatedInitialBytes": 3381894,
       "warnings": [
         {
           "code": "MODULE_PRELOAD_BUDGET_EXCEEDED",
@@ -169,7 +169,7 @@
     {
       "routePath": "/imprint/",
       "htmlFile": "imprint/index.html",
-      "htmlBytes": 272509,
+      "htmlBytes": 272528,
       "images": {
         "total": 21,
         "lazy": 8,
@@ -177,13 +177,13 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1459077,
+      "estimatedInitialBytes": 1445188,
       "warnings": []
     },
     {
       "routePath": "/vi/imprint/",
       "htmlFile": "vi/imprint/index.html",
-      "htmlBytes": 274428,
+      "htmlBytes": 274447,
       "images": {
         "total": 21,
         "lazy": 8,
@@ -191,13 +191,13 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1460996,
+      "estimatedInitialBytes": 1447107,
       "warnings": []
     },
     {
       "routePath": "/nimbus/",
       "htmlFile": "nimbus/index.html",
-      "htmlBytes": 688294,
+      "htmlBytes": 688313,
       "images": {
         "total": 60,
         "lazy": 46,
@@ -205,13 +205,13 @@
       },
       "modulePreloads": 14,
       "lcpHints": [],
-      "estimatedInitialBytes": 4100065,
+      "estimatedInitialBytes": 4086176,
       "warnings": []
     },
     {
       "routePath": "/vi/nimbus/",
       "htmlFile": "vi/nimbus/index.html",
-      "htmlBytes": 680816,
+      "htmlBytes": 680835,
       "images": {
         "total": 60,
         "lazy": 46,
@@ -219,13 +219,13 @@
       },
       "modulePreloads": 14,
       "lcpHints": [],
-      "estimatedInitialBytes": 4092587,
+      "estimatedInitialBytes": 4078698,
       "warnings": []
     },
     {
       "routePath": "/nura/",
       "htmlFile": "nura/index.html",
-      "htmlBytes": 377004,
+      "htmlBytes": 377023,
       "images": {
         "total": 30,
         "lazy": 8,
@@ -233,18 +233,18 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 13699106,
+      "estimatedInitialBytes": 13685217,
       "warnings": [
         {
           "code": "INITIAL_RESOURCE_BUDGET_EXCEEDED",
-          "message": "Estimated initial resources are 13699106 bytes (budget 6000000)."
+          "message": "Estimated initial resources are 13685217 bytes (budget 6000000)."
         }
       ]
     },
     {
       "routePath": "/vi/nura/",
       "htmlFile": "vi/nura/index.html",
-      "htmlBytes": 373774,
+      "htmlBytes": 373793,
       "images": {
         "total": 30,
         "lazy": 8,
@@ -252,18 +252,18 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 13695876,
+      "estimatedInitialBytes": 13681987,
       "warnings": [
         {
           "code": "INITIAL_RESOURCE_BUDGET_EXCEEDED",
-          "message": "Estimated initial resources are 13695876 bytes (budget 6000000)."
+          "message": "Estimated initial resources are 13681987 bytes (budget 6000000)."
         }
       ]
     },
     {
       "routePath": "/offices/",
       "htmlFile": "offices/index.html",
-      "htmlBytes": 295930,
+      "htmlBytes": 295949,
       "images": {
         "total": 22,
         "lazy": 8,
@@ -271,13 +271,13 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 3003966,
+      "estimatedInitialBytes": 2990077,
       "warnings": []
     },
     {
       "routePath": "/vi/offices/",
       "htmlFile": "vi/offices/index.html",
-      "htmlBytes": 284468,
+      "htmlBytes": 284487,
       "images": {
         "total": 22,
         "lazy": 8,
@@ -285,13 +285,13 @@
       },
       "modulePreloads": 24,
       "lcpHints": [],
-      "estimatedInitialBytes": 2992504,
+      "estimatedInitialBytes": 2978615,
       "warnings": []
     },
     {
       "routePath": "/research/",
       "htmlFile": "research/index.html",
-      "htmlBytes": 314862,
+      "htmlBytes": 314881,
       "images": {
         "total": 26,
         "lazy": 8,
@@ -299,7 +299,7 @@
       },
       "modulePreloads": 26,
       "lcpHints": [],
-      "estimatedInitialBytes": 3252433,
+      "estimatedInitialBytes": 3238544,
       "warnings": [
         {
           "code": "MODULE_PRELOAD_BUDGET_EXCEEDED",
@@ -310,7 +310,7 @@
     {
       "routePath": "/vi/research/",
       "htmlFile": "vi/research/index.html",
-      "htmlBytes": 314631,
+      "htmlBytes": 314650,
       "images": {
         "total": 26,
         "lazy": 8,
@@ -318,7 +318,7 @@
       },
       "modulePreloads": 26,
       "lcpHints": [],
-      "estimatedInitialBytes": 3252202,
+      "estimatedInitialBytes": 3238313,
       "warnings": [
         {
           "code": "MODULE_PRELOAD_BUDGET_EXCEEDED",
@@ -329,7 +329,7 @@
     {
       "routePath": "/terms-and-conditions/",
       "htmlFile": "terms-and-conditions/index.html",
-      "htmlBytes": 281986,
+      "htmlBytes": 282005,
       "images": {
         "total": 21,
         "lazy": 8,
@@ -337,13 +337,13 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1477790,
+      "estimatedInitialBytes": 1463901,
       "warnings": []
     },
     {
       "routePath": "/vi/terms-and-conditions/",
       "htmlFile": "vi/terms-and-conditions/index.html",
-      "htmlBytes": 285746,
+      "htmlBytes": 285765,
       "images": {
         "total": 21,
         "lazy": 8,
@@ -351,7 +351,7 @@
       },
       "modulePreloads": 7,
       "lcpHints": [],
-      "estimatedInitialBytes": 1481550,
+      "estimatedInitialBytes": 1467661,
       "warnings": []
     },
     {
@@ -365,7 +365,7 @@
       },
       "modulePreloads": 0,
       "lcpHints": [],
-      "estimatedInitialBytes": 196370,
+      "estimatedInitialBytes": 182462,
       "warnings": []
     }
   ]

@@ -49,10 +49,14 @@ function mount(path, start, end, name, destination, options = {}) {
   assert.notEqual(offset, -1);
   const component = source.slice(offset, source.indexOf(end, offset));
   const [constructorName] = /new ([A-Za-z0-9_$]+)\(\{duration:/.exec(component)?.slice(1) ?? [];
+  const refName = /n=([A-Za-z0-9_$]+)\(null\)/.exec(component)?.[1] ?? 'useRef';
+  const effectName = /return ([A-Za-z0-9_$]+)\(\(\)=>/.exec(component)?.[1] ?? 'useEffect';
+  const windowName = /([A-Za-z0-9_$]+)\.getComputedStyle/.exec(component)[1];
+  const jsxName = /\/\*#__PURE__\*\/ ([A-Za-z0-9_$]+)\(/.exec(component)?.[1] ?? '_jsx';
   runInNewContext(`${component}\n${name}({intensity:10});`, {
-    window, o: window, document, useRef, c: useRef, useEffect, v: useEffect,
+    window, [windowName]: window, document, useRef, [refName]: useRef, useEffect, [effectName]: useEffect,
     Lenis, [constructorName ?? 'Lenis']: Lenis, MutationObserver, requestAnimationFrame: () => 1,
-    _jsx: () => null, p: () => null, console,
+    _jsx: () => null, [jsxName]: () => null, console,
   });
   effects.forEach(effect => effect());
   const event = {
